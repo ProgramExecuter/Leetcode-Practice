@@ -1,10 +1,8 @@
 class Solution {
 public:
-    int largestRectangleArea(vector<int>& heights) {
+    int largestRectangleArea(vector<int>& heights, stack<int> &st) {
         int n = heights.size(), res = 0, i = 0;
-        
-        stack<int> st;
-        
+
         while(i < n || !st.empty()) {
             // Calculate area for greater elements and remove them from stack
             while(
@@ -32,6 +30,8 @@ public:
         int nRow = matrix.size(), nCol = matrix[0].size(), ans = 0;
         vector<int> height(nCol, 0);
         
+        stack<int> st;
+        
         for(int row = 0; row < nRow; ++row) {
             // Check for each row
             for(int col = 0; col < nCol; ++col) {
@@ -41,7 +41,7 @@ public:
             }
             
             // Get rectangle with maximum area
-            ans = max(ans, largestRectangleArea(height));
+            ans = max(ans, largestRectangleArea(height, st));
         }
         
         return ans;
