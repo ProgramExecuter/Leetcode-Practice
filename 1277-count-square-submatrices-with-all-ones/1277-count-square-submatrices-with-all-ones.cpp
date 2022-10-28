@@ -27,12 +27,6 @@ public:
             }
         }
         
-        for(auto x : dp) {
-            for(int i : x)
-                cout << i << " ";
-            cout << endl;
-        }
-        
         return ans;
     }
 };
