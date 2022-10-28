@@ -32,7 +32,7 @@ public:
             int idx = st.top();
             int lB = leftSmall[idx], rB = n-1;
 
-            // Calculae the area
+            // Calculate the area
             int area = (rB - lB + 1) * heights[idx];
             res = max(res, area);
             
