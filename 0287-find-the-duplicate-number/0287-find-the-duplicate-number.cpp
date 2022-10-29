@@ -3,7 +3,7 @@ public:
     int findDuplicate(vector<int>& nums) {
         int slow = nums[0], fast = nums[nums[0]];
         
-        // Find the loop start, using rabbit and hare method
+        // Find the loop startig point, using rabbit and hare method
         while(slow != fast) {
             slow = nums[slow];
             fast = nums[nums[fast]];
