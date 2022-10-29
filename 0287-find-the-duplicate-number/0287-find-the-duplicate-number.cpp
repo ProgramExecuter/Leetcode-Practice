@@ -7,7 +7,6 @@ public:
         while(slow != fast) {
             slow = nums[slow];
             fast = nums[nums[fast]];
-            cout << slow << " " << fast << endl;
         }
         
         fast = 0;
