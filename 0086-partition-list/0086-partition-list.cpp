@@ -19,10 +19,9 @@ public:
         while(curr) {
             ListNode *nxt = curr->next;                     // Save next node
             
-            
-            if(curr->val < x) {
+            if(curr->val < x) {                             // If value of 'curr' < x, then perform, else NA
                 if(newCurr->next == curr) {
-                    prev = newCurr = curr;
+                    prev = newCurr = curr;                  // It's already in place
                 }
                 else {
                     prev->next = nxt;                       // Remove curr node from position
@@ -33,9 +32,10 @@ public:
                     newCurr = newCurr->next;                // Move 'newCurr' ahead
                 }
             }
-            else
+            else {
                 prev = curr;
-            
+            }
+                
             curr = nxt;                                     // Move ahead
         }
         
