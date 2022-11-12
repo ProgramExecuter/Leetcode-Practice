@@ -11,16 +11,17 @@ public:
         
         // Iterate through remainder array
         for(int i = 0; i < n; ++i) {
+            // Remainder of this song after % by 60
             rem[i] = time[i] % 60;
             
             // IF remainder is 0, then find its equivalent 0
             // Since, %60 only gives [0, 59]
             if(rem[i] == 0) {
-                // Sum up the pairs
+                // Found pair, sum up the occurences
                 cnt += mp[0];
             }
             else {
-                // Sum up the pairs
+                // Found pair, sum up the occurences
                 cnt += mp[60-rem[i]];
             }
             
