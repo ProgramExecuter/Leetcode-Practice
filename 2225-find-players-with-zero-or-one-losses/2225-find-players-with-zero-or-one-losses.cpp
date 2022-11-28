@@ -5,7 +5,7 @@ public:
         set<int> allPlayers;
         
         // Track the loss count of each player
-        unordered_map<int, int> playerLossCnt;
+        map<int, int> playerLossCnt;
         
         // Check for each match
         for(auto match : matches) {
