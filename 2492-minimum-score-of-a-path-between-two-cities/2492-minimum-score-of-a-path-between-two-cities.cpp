@@ -16,9 +16,9 @@ public:
             // Skip the visited node
             if(vis[i.first])    continue;
             
-            vis[i.first] = true;        // Mark visited
+            // Mark visited
+            vis[i.first] = true;
             dfs(adj, vis, i.first, ans);
-            // vis[i.first] = false;       // Backtrack
         }
     }
     int minScore(int n, vector<vector<int>>& roads) {
