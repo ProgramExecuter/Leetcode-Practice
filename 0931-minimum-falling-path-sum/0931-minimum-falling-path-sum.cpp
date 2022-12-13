@@ -1,37 +1,37 @@
 class Solution {
 public:
-    int f(int row, int col, vector<vector<int>>& matrix, int &nRows, int &nCols, vector<vector<int>> &dp) {
-        if(row >= nCols or col >= nCols or col < 0)
-            return 1e8;
-        
-        if(dp[row][col] != -1)
-            return dp[row][col];
-        
-        // Down-Left
-        int downLeft = f(row+1, col-1, matrix, nRows, nCols, dp);
-        
-        // Down
-        int down = f(row+1, col, matrix, nRows, nCols, dp);
-        
-        // Down-Right
-        int downRight = f(row+1, col+1, matrix, nRows, nCols, dp);
-        
-        int downPaths = min(down, min(downLeft, downRight));
-        if(downPaths == 1e8)
-            downPaths = 0;
-        
-        return dp[row][col] = matrix[row][col] + downPaths;
-    }
     int minFallingPathSum(vector<vector<int>>& matrix) {
         int nRows = matrix.size(), nCols = matrix[0].size();
         
-        vector<vector<int>> dp(nRows, vector<int>(nCols, -1));
-        int mnSum = 1e8;
+        // Base Case, copy the value of top row to 'prev'
+        vector<int> prev(nCols, 0);
+        for(int i = 0; i < nCols; ++i)
+            prev[i] = matrix[0][i];
         
-        for(int i = 0; i < nCols; ++i) {
-            mnSum = min(mnSum, f(0, i, matrix, nRows, nCols, dp));
+        
+        for(int row = 1; row < nRows; ++row) {
+            vector<int> curr(nCols, 0);
+            for(int col = 0; col < nCols; ++col) {
+                // Up-Left
+                int upLeft = col == 0 ? 1e8 : prev[col-1];
+                
+                // Up
+                int up = prev[col];
+                
+                // Up-Right
+                int upRight = col == nCols-1 ? 1e8 : prev[col+1];
+                
+                // Take the minimum of upper paths, and add the current matrix-element
+                curr[col] = matrix[row][col] + min(up, min(upLeft, upRight));
+            }
+            prev = curr;
         }
         
-        return mnSum;
+        // Find the path with minimum sum
+        int mnSumPath = 1e8;
+        for(int x : prev)
+            mnSumPath = min(mnSumPath, x);
+        
+        return mnSumPath;
     }
 };
