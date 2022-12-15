@@ -9,7 +9,7 @@ public:
             
             for(int idx2 = len2-1; idx2 >= 0; --idx2) {
                 if(text1[idx1] == text2[idx2]) {                // Both Chars Matches
-                    curr[idx2] = 1 + next[idx2+1];              // Increment by subSeq's length 1
+                    curr[idx2] = 1 + next[idx2+1];              // Increment subSeq's length by 1
                 }
                 else {                                          // Chars Don't Match
                     int ch1 = curr[idx2+1];                     // We can either move first
