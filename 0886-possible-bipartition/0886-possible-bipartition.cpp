@@ -37,7 +37,7 @@ public:
         vector<int> grp(n+1, -1);       // Has detail about in which the node is
         
         for(int i = 1; i <= n; ++i) {
-            // Already check this component
+            // Already checked this component
             if(grp[i] != -1)    continue;
             
             if(!bfs(i, 0, adj, grp))
