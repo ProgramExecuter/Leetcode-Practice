@@ -1,36 +1,27 @@
 class Solution {
 public:
-    int f(int idx, bool bought, vector<int> &prices, vector<vector<int>> &dp) {
-        if(idx >= prices.size())
-            return 0;
+    int maxProfit(vector<int>& prices) {
+        int n = prices.size();
+        vector<vector<int>> dp(n, vector<int>(2, 0));
         
-        // Already calculated
-        if(dp[idx][bought] != -1)
-            return dp[idx][bought];
-        
-        // BUY logic
-        if(!bought) {
+        // Memoization
+        for(int idx = n-1; idx >= 0; --idx) {
             // We buy this stock
-            int buy = -1*prices[idx] + f(idx+1, true, prices, dp);
+            int buy = -1*prices[idx] + (idx < n-1 ? dp[idx+1][1] : 0);
             
             // We don't buy this stock
-            int notBuy = f(idx+1, false, prices, dp);
-            
-            return dp[idx][bought] = max(buy, notBuy);
-        }
-        // SELL logic
-        else {
+            int notBuy = (idx < n-1 ? dp[idx+1][0] : 0);
+        
             // We sell this stock
-            int sell = prices[idx] + f(idx+2, false, prices, dp);
+            int sell = prices[idx] + (idx < n-2 ? dp[idx+2][0] : 0);
             
             // We don't sell this stock
-            int notSell = f(idx+1, true, prices, dp);
+            int notSell = (idx < n-1 ? dp[idx+1][1] : 0);
             
-            return dp[idx][bought] = max(sell, notSell);
+            dp[idx][0] = max(buy, notBuy);
+            dp[idx][1] = max(sell, notSell);
         }
-    }
-    int maxProfit(vector<int>& prices) {
-        vector<vector<int>> dp(prices.size(), vector<int>(2, -1));
-        return f(0, false, prices, dp);
+        
+        return dp[0][0];
     }
 };
