@@ -1,25 +1,34 @@
 class Solution {
 public:
-    int f(int x, int y, int &cnt, vector<vector<int>> &grid, vector<vector<bool>> &vis, int &n, int &m) {
-        if(x>=n or y>=m or x<0 or y<0 or vis[x][y] or grid[x][y]==-1)
+    int f(int x, int y, int &cnt, vector<vector<int>> &grid, vector<vector<bool>> &vis) {
+        // Return  0 , if indexes out-of-range 
+        // or already visited or the grid has obstacles
+        if( x >= grid.size()  or  y >= grid[0].size()  
+            or  x < 0  or  y < 0  or vis[x][y]
+            or grid[x][y] == -1 
+          )
             return 0;
         
-        --cnt;      vis[x][y] = true;       // Mark as visited
+        --cnt;      vis[x][y] = true;                   // Mark as visited
         
+        // Found the ending node
         if(grid[x][y] == 2) {
             int tmpCnt = cnt;
-            ++cnt;  vis[x][y] = false;      // Backtrack
+            
+            ++cnt;  vis[x][y] = false;                  // Backtrack
+            
             return tmpCnt == 0;
         }
         
         int currCnt = 0;
         
-        currCnt += f(x, y+1, cnt, grid, vis, n, m);   // Right
-        currCnt += f(x+1, y, cnt, grid, vis, n, m);   // Down
-        currCnt += f(x-1, y, cnt, grid, vis, n, m);   // Up
-        currCnt += f(x, y-1, cnt, grid, vis, n, m);   // Left
+        // Sum all the results from all directions
+        currCnt += f(x, y+1, cnt, grid, vis);           // Right
+        currCnt += f(x+1, y, cnt, grid, vis);           // Down
+        currCnt += f(x-1, y, cnt, grid, vis);           // Up
+        currCnt += f(x, y-1, cnt, grid, vis);           // Left
         
-        vis[x][y] = false;  ++cnt;          // Backtrack
+        vis[x][y] = false;  ++cnt;                      // Backtrack
         
         return currCnt;
     }
@@ -39,7 +48,9 @@ public:
             }
         }
         
+        // No of grid we need to visit
         int cnt = nRow*nCol - nObs;
-        return f(stX, stY, cnt, grid, vis, nRow, nCol);
+        
+        return f(stX, stY, cnt, grid, vis);
     }
 };
