@@ -1,28 +1,18 @@
 class Solution {
 public:
     string longestCommonPrefix(vector<string>& strs) {
-        int n = strs[0].size();
-        int lastIdx = n-1;
+        int n = strs.size(), i = 0;
         
-        // Use the first string to compare with others
-        string cmp = strs[0];
+        // Sort the array of strings
+        sort(strs.begin(), strs.end());
         
-        for(string s : strs) {
-            // Initially max. matching 'idx' is -1
-            int idx = -1, tmpN = s.size();
-            
-            for(int i = 0; i < min(n, tmpN); ++i) {
-                // Current chars match, so this is idx, for now
-                if(s[i] == cmp[i])  idx = i;
-                // Not matching , break the loop, no need to iterate
-                else                break;
-            }
-            
-            // Take the minimum of indexes until which all string match
-            lastIdx = min(lastIdx, idx);
+        // Compare the first & last string
+        string a = strs[0], b = strs[n-1];
+        for(; i < min(a.size(), b.size()); ++i) {
+            if(a[i] != b[i])    break;
         }
         
-        // Return the string common
-        return cmp.substr(0, lastIdx+1);
+        // Return the common prefix string
+        return strs[0].substr(0, i);
     }
 };
