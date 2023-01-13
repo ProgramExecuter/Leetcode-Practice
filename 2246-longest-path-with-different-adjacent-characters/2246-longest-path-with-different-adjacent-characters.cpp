@@ -1,12 +1,12 @@
 class Solution {
 public:
-    int f(int curr, string &s, vector<vector<int>> &adj, int &maxPathLen)
+    int dfs(int curr, string &s, vector<vector<int>> &adj, int &maxPathLen)
     {
         // Find the longest 2 subtree for this node
         int max1 = 0, max2 = 0;
         for(int child : adj[curr])
         {
-            int tmp = f(child, s, adj, maxPathLen);
+            int tmp = dfs(child, s, adj, maxPathLen);
             if(s[child] == s[curr])     continue;
             
             if(tmp > max2)      max2 = tmp;
@@ -29,7 +29,7 @@ public:
         for(int i = 1; i < parent.size(); ++i)
             adj[parent[i]].push_back(i);
         
-        f(0, s, adj, maxPathLen);
+        dfs(0, s, adj, maxPathLen);
         
         return maxPathLen;
     }
