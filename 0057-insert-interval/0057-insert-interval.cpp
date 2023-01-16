@@ -16,21 +16,22 @@ public:
             int currEn = intervals[i][1];
             
             if(!isDone) {
-                // Overlapping with new interval, i.e => new interval's starting is not
-                // greater than intervals's ending  AND  new intervals's ending is not
-                // greater than intervals's starting
+                // Overlapping intevals
                 if(isOverlap(intervals[i], newInterval)) {
+                    // Merge the overlapping intervals
                     while(i < n  and  isOverlap(intervals[i], newInterval)) {
                         currSt = min(currSt, min(intervals[i][0], newInterval[0]));
                         currEn = max(currEn, max(intervals[i][1], newInterval[1]));
                         ++i;
                     }
-                    --i;
-                    isDone = true;
+                    
+                    --i;  // To make up for last ++i
+                    isDone = true;      // new interval added
                 }
+                // The current interval is > than new interval, so directly add it to res
                 else if(intervals[i][0] > newInterval[0]) {
                     res.push_back(newInterval);
-                    isDone = true;
+                    isDone = true;      // new interval added
                 }
             }
             
@@ -39,6 +40,7 @@ public:
             ++i;
         }
         
+        // In case the new interval is not added, even after exhausting the intervals
         if(!isDone)     res.push_back(newInterval);
         
         return res;
