@@ -1,5 +1,6 @@
 class Solution {
 public:
+    // Check if 2 intervals are overlapping
     bool isOverlap(vector<int> &interval1, vector<int> &interval2) {
         return (
             !(interval1[0] > interval2[1]) and 
