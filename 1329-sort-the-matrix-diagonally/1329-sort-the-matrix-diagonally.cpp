@@ -4,12 +4,14 @@ public:
         int tmpR = row, tmpC = col, idx = 0;
         vector<int> tmp;
 
-        // Check while we're not out-of-bounds
+        // Push all elements to 'tmp' while we're not out-of-bounds
         while(tmpR < nRow  and  tmpC < nCol)
             tmp.push_back(mat[tmpR++][tmpC++]);
 
+        // Sort the array
         sort(tmp.begin(), tmp.end());
-
+        
+        // Assign the sorted array to the diagonal grids
         tmpR = row, tmpC = col;
         while(tmpR < nRow  and  tmpC < nCol)
             mat[tmpR++][tmpC++] = tmp[idx++];
