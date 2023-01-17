@@ -1,46 +1,22 @@
 class Solution {
 public:
     int minFlipsMonoIncr(string s) {
-        int n = s.size();
+        int cnt1 = 0, cntFlip = 0;
         
-        // Used two 1-D vectors for which is equivalent to O(1)
-        // So optimized space from O(N) to O(1)
-        vector<int> next(2, 0), curr(2, 0);
-        
-        // Bottom-Up DP(Iterative approach)
-        for(int idx = n-1; idx >= 0; --idx) {
-            for(int prevCh = 0; prevCh <= 1; ++prevCh) {
-                int flip = 1e9, noFlip = 1e9;
-                
-                if(s[idx] == '0') {
-                    // Previous is '1', so we must flip and make this '1'
-                    if(prevCh == 1) {
-                        flip = 1 + next[1];
-                    }
-                    // Previous is '0', so we can flip or not flip it
-                    else {
-                        flip = 1 + next[1];
-                        noFlip = next[0];
-                    }
-                }
-                else {
-                    // Since the previous char is '1', we must make this '1'
-                    if(prevCh == 1) {
-                        noFlip = next[1];
-                    }
-                    // Previous char is '0', so we can flip or not flip
-                    else {
-                        flip = 1 + next[0];
-                        noFlip = next[1];
-                    }
-                }
-                
-                curr[prevCh] = min(flip, noFlip);
+        for(char ch : s) {
+            // When we encounter 1, we just count it
+            if(ch == '1')
+                ++cnt1;
+            // When we encounter 0, then we check if we flip it or don't if we flip it,
+            // then ++cntFlip, and if we don't flip it, then we will have to
+            // flip all the 1's we encountered until now, thus we take min(cntFlip, cnt1)
+            // 'cntFlip' => flip, 'cnt1' => no flip
+            else {
+                ++cntFlip;
+                cntFlip = min(cntFlip, cnt1);
             }
-            
-            next = curr;
         }
         
-        return next[0];
+        return cntFlip;
     }
 };
