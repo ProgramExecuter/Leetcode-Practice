@@ -1,10 +1,8 @@
 class Solution {
 public:
     void f(int idx, int prev, vector<int> &nums, vector<int> &curr, set<vector<int>> &res) {
-        int n = nums.size();
-        if(idx == n) {
-            if(curr.size() > 1)
-                res.insert(curr);
+        if(idx == nums.size()) {
+            if(curr.size() > 1)     res.insert(curr);
             return;
         }
         
@@ -19,6 +17,7 @@ public:
         f(idx+1, prev, nums, curr, res);
     }
     vector<vector<int>> findSubsequences(vector<int>& nums) {
+        // Set used for ignoring duplicates
         set<vector<int>> res;
         vector<int> curr;
         
