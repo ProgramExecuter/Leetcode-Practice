@@ -1,21 +1,17 @@
 class Solution {
 public:
     vector<int> findingUsersActiveMinutes(vector<vector<int>>& logs, int k) {
+        // Track each user's activity time on their respectve 'set'
         map<int, set<int>> userTime;
-        map<int, int> timeCnt;
-        
-        for(auto log : logs) {
+        for(auto log : logs)
             userTime[log[0]].insert(log[1]);
-        }
-        
-        for(auto x : userTime) {
-            ++timeCnt[x.second.size()];
-        }
         
         vector<int> res(k, 0);
         
-        for(auto x : timeCnt)
-            res[x.first-1] = x.second;
+        // Count the no. of users who have activity time in range [0, k]
+        // and save them in respective time grid
+        for(auto i : userTime)
+            ++res[i.second.size()-1];
         
         return res;
     }
