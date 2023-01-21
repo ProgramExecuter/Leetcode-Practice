@@ -1,46 +1,36 @@
 class Solution {
 public:
-    void f(int idx, string curr, int &cnt, string &s, vector<string> &res) {
-        int n = s.size();
-        
-        if(idx == n) {
-            if(cnt == 4)
-                res.push_back(curr);
-            return;
-        }
-        else if(idx > n)
-            return;
-        else
-            if(cnt == 4)    return;
-        
-        string tmpStr = "";
-        
-        // Take 1 length
-        tmpStr = curr + s[idx];
-        if(cnt++ < 3)     tmpStr += '.';
-        f(idx+1, tmpStr, cnt, s, res);
-        --cnt;
-        
-        // Take 2 length
-        if(s[idx] != '0') {
-            tmpStr = curr + s.substr(idx, 2);
-            if(cnt++ < 3)     tmpStr += '.';
-            f(idx+2, tmpStr, cnt, s, res);
-            --cnt;
-        }
-        
-        // Take 3 length
-        if(stoi(s.substr(idx, 2)) >= 10  and  stoi(s.substr(idx, 3)) <= 255) {
-            tmpStr = curr + s.substr(idx, 3);
-            if(cnt++ < 3)     tmpStr += '.';
-            f(idx+3, tmpStr, cnt, s, res);
-            --cnt;
-        }
+    bool check(int x, int xInt) {
+        return (
+            (x == 2  and  xInt < 10)  or
+            (x == 3  and  xInt < 100)
+        );
     }
     vector<string> restoreIpAddresses(string s) {
         vector<string> res;
-        int cnt = 0;
-        f(0, "", cnt, s, res);
+        
+        for(int a = 1; a < 4; ++a)
+        for(int b = 1; b < 4; ++b)
+        for(int c = 1; c < 4; ++c)
+        {
+            int d = s.size() - a - b - c;
+            if(d > 0  and  d < 4)
+            {
+                string aStr = s.substr(0, a), bStr = s.substr(a, b);
+                string cStr = s.substr(a+b, c), dStr = s.substr(a+b+c, d);
+                int aInt = stoi(aStr), bInt = stoi(bStr);
+                int cInt = stoi(cStr), dInt = stoi(dStr);
+                
+                if(
+                    check(a,aInt) or check(b,bInt) or check(c,cInt) or check(d,dInt)
+                    or aInt > 255 or bInt > 255 or cInt > 255 or dInt > 255
+                    )
+                    continue;
+                
+                string curr = aStr + '.' + bStr + '.' + cStr + '.' + dStr;
+                res.push_back(curr);
+            }
+        }
         
         return res;
     }
