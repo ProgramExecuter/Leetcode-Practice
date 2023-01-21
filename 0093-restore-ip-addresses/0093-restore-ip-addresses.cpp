@@ -1,5 +1,6 @@
 class Solution {
 public:
+    // Check if we have leading zeros
     bool check(int x, int xInt) {
         return (
             (x == 2  and  xInt < 10)  or
@@ -18,13 +19,15 @@ public:
             {
                 string aStr = s.substr(0, a), bStr = s.substr(a, b);
                 string cStr = s.substr(a+b, c), dStr = s.substr(a+b+c, d);
+                
                 int aInt = stoi(aStr), bInt = stoi(bStr);
                 int cInt = stoi(cStr), dInt = stoi(dStr);
                 
+                // If the sections have leading zeros or out-of-range, SKIP
                 if(
                     check(a,aInt) or check(b,bInt) or check(c,cInt) or check(d,dInt)
                     or aInt > 255 or bInt > 255 or cInt > 255 or dInt > 255
-                    )
+                )
                     continue;
                 
                 string curr = aStr + '.' + bStr + '.' + cStr + '.' + dStr;
