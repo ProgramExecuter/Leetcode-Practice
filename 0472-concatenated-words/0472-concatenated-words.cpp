@@ -1,6 +1,6 @@
 class Solution {
 public:
-    bool check(int idx, int prevParIdx, int nPar, string &s, set<string> &st) {
+    bool check(int idx, int prevParIdx, int nPar, string &s, unordered_set<string> &st) {
         string toBePar = s.substr(prevParIdx+1, idx-prevParIdx);
         bool par = false, noPar = false;
         bool isParInSet = st.find(toBePar) != st.end();
@@ -26,7 +26,7 @@ public:
     }
     vector<string> findAllConcatenatedWordsInADict(vector<string>& words) {
         // Used for mapping 'length_of_string' to a set of string having that length
-        set<string> st;
+        unordered_set<string> st;
         
         for(string s : words)
             st.insert(s);
