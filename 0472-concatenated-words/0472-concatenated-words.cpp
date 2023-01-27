@@ -5,10 +5,9 @@ public:
         bool par = false, noPar = false;
         bool isParInSet = st.find(toBePar) != st.end();
         int n = s.size();
-        
-        if(idx == n)
-            return nPar > 0;
-        else if(idx == n-1)
+
+        // We have to make these partition, no other option
+        if(idx == n-1)
             return isParInSet;
         else if(idx == n-2  and  nPar == 0) {
             if(isParInSet)
