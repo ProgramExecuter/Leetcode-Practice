@@ -27,14 +27,18 @@ public:
     vector<string> findAllConcatenatedWordsInADict(vector<string>& words) {
         // Used for mapping 'length_of_string' to a set of string having that length
         unordered_set<string> st;
+        int minLen = INT_MAX;
         
-        for(string s : words)
+        for(string s : words) {
+            int len = s.size();
+            minLen = min(minLen, len);
             st.insert(s);
+        }
         
         vector<string> res;
         for(string s : words) {
             int len = s.size();
-            if(len == 1)    continue;
+            if(len == minLen)    continue;
             
             // Check if this string can be partitioned into multiple
             // strings, which are already present in the set(map)
