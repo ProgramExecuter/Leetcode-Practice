@@ -12,6 +12,7 @@ public:
         bool ageGreatPrev = ageScore[idx].first > ageScore[prevIdx].first;
         bool scoreLessPrev = ageScore[idx].second < ageScore[prevIdx].second;
         
+        // Do not pick if there's a conflict
         if(!(ageGreatPrev  and  scoreLessPrev))
             pick = ageScore[idx].second + f(idx+1, idx, ageScore, dp);
         
@@ -25,16 +26,13 @@ public:
         
         // Create a vector of pair<age, score>, and sort it
         vector<pair<int, int>> ageScore;
-        ageScore.push_back({0, 0});
+        ageScore.push_back({0, 0});     // Dummy pair at the start
         for(int i = 0; i < n; ++i)
             ageScore.push_back({ages[i], scores[i]});
         sort(ageScore.begin(), ageScore.end());
         
-        vector<vector<int>> dp(n+1, vector<int>(n+1, -1));
-        
-        for(auto i : ageScore)
-            cout << i.first << " " << i.second << endl;
-        cout << endl;
+        // Create a 2D DP
+        vector<vector<int>> dp(n+2, vector<int>(n+1, -1));
         
         return f(1, 0, ageScore, dp);
     }
