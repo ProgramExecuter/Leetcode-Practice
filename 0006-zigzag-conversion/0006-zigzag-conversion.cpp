@@ -1,27 +1,27 @@
 class Solution {
 public:
     string convert(string s, int nR) {
-        vector<vector<char>> tmpRes(nR, vector<char>());
+        if(nR == 1)     return s;
         int nC = s.size(), idx = 0;
         
-        // Iterate the string
-        while(idx < nC) {
-            int i = 0;
-            
-            // Add the normal top-down characters in each row
-            while(idx < nC  and  i < nR)
-                tmpRes[i++].push_back(s[idx++]);
-            
-            // Add the diagonal(zig-zag) chars starting from 2nd last row to 2nd row 
-            i = nR-2;
-            while(idx < nC  and  i > 0)
-                tmpRes[i--].push_back(s[idx++]);
-        }
-        
-        // Create the result
         string res;
-        for(auto i : tmpRes)
-            for(auto j : i)     res += j;
+        for(int idx = 0; idx < nR; ++idx) {
+            int i = idx;
+            
+            while(i < nC) {
+                // Add the normal top-down char
+                res += s[i];
+                
+                // Add the zig-zag char
+                if(idx > 0  and  idx < nR-1) {
+                    int currIdx = i + (nR - idx - 1) * 2;
+                    if(currIdx >= 0  and  currIdx < nC)
+                        res += s[currIdx];
+                }
+                
+                i += (2*nR - 2);
+            }
+        }
         
         return res;
     }
