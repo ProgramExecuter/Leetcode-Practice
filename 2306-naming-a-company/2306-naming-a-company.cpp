@@ -3,6 +3,8 @@ public:
     long long distinctNames(vector<string>& ideas) {
         vector<set<string>> mp(26, set<string>());
         
+        // Map the suffix(except 1st character) with the characters according to their
+        // first character
         for(string s : ideas) {
             int idx = s[0] - 'a';
             string sub = s.substr(1);
