@@ -1,7 +1,10 @@
 class Solution {
 public:
     long long dfs(int curr, int &seats, vector<vector<int>> &adj, vector<bool> &vis, long long &res) {
+        // Mark as visited
         vis[curr] = true;
+        
+        // 1 for current node
         long long people = 1ll;
         
         for(int neigh : adj[curr]) {
@@ -9,8 +12,10 @@ public:
             if(vis[neigh])     continue;
             
             int tmp = dfs(neigh, seats, adj, vis, res);
-            res += (tmp + seats-1) / seats;
             people += tmp;
+            
+            // Add the fuel the people from immediate children branch need to get to this node
+            res += (tmp + seats-1) / seats;
         }
         
         return people;
@@ -20,7 +25,7 @@ public:
         vector<bool> vis(n, false);
         vis[0] = true;
         
-        // Adjancency vector
+        // Adjacency vector
         vector<vector<int>> adj(n, vector<int>());
         for(auto i : roads) {
             adj[i[0]].push_back(i[1]);
@@ -28,7 +33,6 @@ public:
         }
         
         long long resScore = 0ll;
-        
         dfs(0, seats, adj, vis, resScore);
         
         return resScore;
