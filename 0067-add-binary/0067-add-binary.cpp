@@ -10,14 +10,8 @@ public:
             if(i >= 0  and  a[i] == '1')    ++curr;
             if(j >= 0  and  b[j] == '1')    ++curr;
             
-            if(curr < 2) {
-                res += char('0' + curr);
-                carry = 0;
-            }
-            else {
-                res += char('0' + curr % 2);
-                carry = 1;
-            }
+            carry = curr > 1 ? 1 : 0;
+            res += char('0' + curr % 2);
         }
         
         reverse(res.begin(), res.end());
