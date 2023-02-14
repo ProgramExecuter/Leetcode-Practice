@@ -4,6 +4,7 @@ public:
         int carry = 0;
         string res;
         
+        // Go on until we have string or carry
         for(int i = a.size()-1, j = b.size()-1; i >= 0  or j >= 0 or carry > 0; --i, --j) {
             int curr = carry;
             
