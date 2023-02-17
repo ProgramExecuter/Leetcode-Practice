@@ -14,12 +14,14 @@ public:
     pair<int, int> dfs(TreeNode* root, int &res) {
         if(!root)       return {INT_MIN, INT_MAX};
         
+        // Check for minimum and maximum in both child branches
         auto left = dfs(root->left, res);
         auto right = dfs(root->right, res);
         
         int currVal = root->val, leftRes = INT_MAX, rightRes = INT_MAX;
         int currMin = currVal, currMax = currVal;
         
+        // If the node exists, then calculate the required variables
         if(left.first != INT_MIN) {
             leftRes = min(leftRes, min(abs(currVal - left.first), abs(currVal - left.second)));
             currMin = min(currMin, left.first);
@@ -29,13 +31,14 @@ public:
             currMax = max(currMax, right.second);
         }
         
+        // Find the minimum result
         res = min(res, min(leftRes, rightRes));
         
+        // Return the minimum and maximum values of current subtree
         return {currMin, currMax};
     }
     int minDiffInBST(TreeNode* root) {
         int res = INT_MAX;
-        
         dfs(root, res);
         
         return res;
