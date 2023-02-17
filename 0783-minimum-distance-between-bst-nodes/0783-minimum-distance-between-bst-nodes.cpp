@@ -21,20 +21,15 @@ public:
         int currMin = currVal, currMax = currVal;
         
         if(left.first != INT_MIN) {
-            cout << leftRes << "LR ";
             leftRes = min(leftRes, min(abs(currVal - left.first), abs(currVal - left.second)));
             currMin = min(currMin, left.first);
         }
         if(right.second != INT_MAX) {
-            cout << rightRes << "RR ";
             rightRes = min(rightRes, min(abs(currVal - right.first), abs(currVal - right.second)));
             currMax = max(currMax, right.second);
         }
         
         res = min(res, min(leftRes, rightRes));
-        
-        cout << "LR-" << leftRes << " RR-" << rightRes << " ";
-        cout << currVal << " -> {" << currMin << "," << currMax << "}  => " << res <<  endl;
         
         return {currMin, currMax};
     }
@@ -46,10 +41,3 @@ public:
         return res;
     }
 };
-/*
-                96
-            12      N
-        N       13
-            N       52
-                29
-*/
