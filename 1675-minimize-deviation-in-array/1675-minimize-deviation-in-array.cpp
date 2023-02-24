@@ -14,9 +14,9 @@ public:
         while(!pq.empty()) {
             int top = pq.top();     pq.pop();
             
-            ans = min(ans,top-m);
+            ans = min(ans, top - m);
             
-            if(top % 2 != 0)        break;
+            if(top % 2)        break;
             
             m = min(m, top / 2);
             pq.push(top / 2);
