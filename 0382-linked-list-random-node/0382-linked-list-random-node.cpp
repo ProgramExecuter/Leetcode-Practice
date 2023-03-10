@@ -21,8 +21,6 @@ public:
     
     int getRandom() {
         int randIdx = rand() % (vect.size());
-        // cout << randNum << endl;
-        
         return vect[randIdx];
     }
 };
