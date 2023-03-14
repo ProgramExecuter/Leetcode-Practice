@@ -24,6 +24,7 @@ public:
         int len1 = num1.size(), len2 = num2.size();
         string res = "0";
         
+        // If any of them is zero, then result is 0
         if(num1.compare("0") == 0 or num2.compare("0") == 0)
             return res;
         
