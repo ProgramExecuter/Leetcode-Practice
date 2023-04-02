@@ -12,12 +12,10 @@ public:
             while(low < high) {
                 int mid = low + (high - low) / 2;
                 
-                if(1ll * spell * potions[mid]  >=  success) {
+                if(1ll * spell * potions[mid]  >=  success)
                     high = mid;
-                }
-                else {
+                else
                     low = mid + 1;
-                }
             }
             
             int nSuccessPairs = 0;
