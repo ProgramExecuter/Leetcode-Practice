@@ -24,12 +24,8 @@ public:
             
             double reqHr = util(dist, mid);
             
-            cout << low << " " << high << " -> " << reqHr << endl;
-            
-            if(reqHr <= hour)
-                high = mid;
-            else
-                low = mid + 1;
+            if(reqHr <= hour)   high = mid;
+            else                low = mid + 1;
         }
         
         return low;
