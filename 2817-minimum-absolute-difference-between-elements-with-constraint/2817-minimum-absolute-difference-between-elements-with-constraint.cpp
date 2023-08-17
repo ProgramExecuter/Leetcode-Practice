@@ -4,7 +4,7 @@ public:
         int res = INT_MAX;
         set<int> st;
         
-        for(int i = x; i < nums.size(); ++i) {
+        for(int i = x; i < nums.size() and res > 0; ++i) {
             st.insert(nums[i-x]);
             auto itr = st.upper_bound(nums[i]);
             
