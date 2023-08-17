@@ -10,26 +10,18 @@
  */
 class Solution {
 public:
-    pair<ListNode*, int> util(ListNode* head) {
-        if(!head)   return {NULL, 0};
-        
-        auto res = util(head->next);
-        int tmp = 2 * head->val + res.second;
-        head->val = tmp % 10;
-        head->next = res.first;
-        
-        return {head, tmp / 10};
-    }
     ListNode* doubleIt(ListNode* head) {
-        pair<ListNode*, int> res = util(head);
+        if(head->val > 4) {
+            head = new ListNode(0, head);
+        }
         
-        if(res.second > 0) {
-            ListNode* newHead = new ListNode(res.second);
-            newHead->next = res.first;
-            return newHead;
+        for(auto curr = head; curr != NULL; curr = curr->next) {
+            curr->val = (curr->val * 2) % 10;
+            
+            if(curr->next && curr->next->val > 4)
+                curr->val += 1;
         }
-        else {
-            return res.first;
-        }
+        
+        return head;
     }
 };
