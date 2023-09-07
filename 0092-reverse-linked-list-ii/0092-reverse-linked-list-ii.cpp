@@ -33,7 +33,6 @@ public:
             else if(idx > right)      break;
             
             // Move to next and mark previous
-            
             prev = curr;
             curr = nxt;
             ++idx;
