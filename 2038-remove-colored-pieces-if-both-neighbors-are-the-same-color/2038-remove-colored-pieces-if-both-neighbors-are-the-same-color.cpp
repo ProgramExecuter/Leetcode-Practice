@@ -3,8 +3,6 @@ class Solution
 public:
     bool winnerOfGame(string colors)
     {
-        if(colors.size() <= 2)  return false;
-        
         int totAlice = 0, totBob = 0;
         int cntAlice = 0, cntBob = 0;
         
