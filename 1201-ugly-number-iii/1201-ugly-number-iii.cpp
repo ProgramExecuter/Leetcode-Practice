@@ -7,6 +7,7 @@ public:
         long long ca = 1ll * c * a / gcd(c, a);
         long long abc = 1ll * a * bc / gcd(a, bc);
         
+        // Like (A U B U C)  U => Union
         long long cnt = 0ll + num/a + num/b + num/c - num/ab - num/bc - num/ca + num/abc;
         
         return cnt >= n;
