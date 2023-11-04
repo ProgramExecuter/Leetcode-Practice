@@ -1,39 +1,41 @@
 class Solution {
 public:
-    int shipWithinDays(vector<int>& weights, int days) {
-        // Find the total weight
-        int totWeight = 0, maxEle = 0;
-        for(int i : weights) {
-            totWeight += i;
-            maxEle = max(maxEle, i);
-        }
+    bool possibleToShip(vector<int>& weights, int capacity, int days)
+    {
+        int currWeight = 0;
+        --days;
         
-        // minimum max. limit should be maximum weighted box
-        int low = maxEle, high = totWeight;
-        
-        // Check using binary search for min. maximum weight limit
-        while(low < high) {
-            int currMaxWeight = (low + high) / 2;
-            int parts = 1, currWeight = 0;
-            
-            for(int i = 0; i < weights.size(); ++i) {
-                // We need to make another round
-                if(currWeight + weights[i] > currMaxWeight) {
-                    currWeight = 0;
-                    ++parts;
-                }
-                
-                currWeight += weights[i];
+        for(int i = 0; i < weights.size(); ++i)
+        {
+            if(weights[i] > capacity)   return false;
+            if(currWeight + weights[i] > capacity)
+            {
+                --days;
+                currWeight = 0;
             }
             
-            // Need higher weight limit
-            if(parts > days)
-                low = currMaxWeight + 1;
-            // Try to find lower weight limit, if possible
-            else
-                high = currMaxWeight;
+            currWeight += weights[i];
         }
         
-        return low;
+        return days >= 0;
+    }
+    int shipWithinDays(vector<int>& weights, int days)
+    {
+        int sum = 0;
+        for(int x : weights)    sum += x;
+        
+        int left = 1, right = sum;
+        
+        while(left < right)
+        {
+            int mid = left + (right - left) / 2;
+            
+            if(possibleToShip(weights, mid, days))
+                right = mid;
+            else
+                left = mid + 1;
+        }
+        
+        return left;
     }
 };
