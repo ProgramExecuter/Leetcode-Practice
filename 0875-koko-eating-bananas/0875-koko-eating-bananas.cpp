@@ -1,30 +1,28 @@
 class Solution {
 public:
-    int minEatingSpeed(vector<int>& piles, int h) {
-        // Minimum and max. K
-        int low = 1, high = 1e9;
+    bool possibleToEatAll(vector<int>& piles, int speed, int h)
+    {
+        for(int pile : piles)
+            h -= (pile + speed - 1) / speed;
         
-        // Use binary-search to find K
-        while(low < high) {
-            int mid = low + (high - low) / 2;
-            int needHours = 0;
+        return h >= 0;
+    }
+    int minEatingSpeed(vector<int>& piles, int h) {
+        int mxPile = 0;
+        for(int x : piles)  mxPile = max(mxPile, x);
+        
+        int left = 1, right = mxPile;
+        
+        while(left < right)
+        {
+            int mid = left + (right - left) / 2;
             
-            for(int curr : piles) {
-                needHours += curr / mid;
-                
-                if(curr % mid  !=  0)
-                    needHours += 1;
-            }
-            
-            // If the needed hours to eat all piles <= H, then we check
-            // if we can find a lower K
-            if(needHours <= h)
-                high = mid;
-            // We need bigger K
+            if(possibleToEatAll(piles, mid, h))
+                right = mid;
             else
-                low = mid + 1;
+                left = mid + 1;
         }
         
-        return low;
+        return left;
     }
 };
