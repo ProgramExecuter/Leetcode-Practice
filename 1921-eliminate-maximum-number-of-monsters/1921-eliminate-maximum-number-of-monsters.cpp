@@ -10,17 +10,14 @@ public:
             cout << curr << " ";
         cout << endl;
         
-        int nEliminated = 0, currTime = 0, timeElim = -1;
+        int nEliminated = 0, currTime = 0;
         
         for(double curr : time)
         {
             if(currTime < curr)
                 ++nEliminated;
             else
-            {
-                timeElim = currTime;
                 break;
-            }
             ++currTime;
         }
         
