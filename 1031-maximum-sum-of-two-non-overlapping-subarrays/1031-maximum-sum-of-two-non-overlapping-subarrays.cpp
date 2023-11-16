@@ -60,10 +60,6 @@ public:
             }
         }
         
-        for(int i = 0; i < len; ++i)
-            cout << leftFirst[i] << " " << leftSecond[i] << " " << rightFirst[i] << " " << rightSecond[i] << endl;
-        cout << endl << endl;
-        
         int res = 0;
         for(int i = 1; i < len; ++i)
         {
