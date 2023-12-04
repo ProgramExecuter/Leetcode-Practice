@@ -3,8 +3,7 @@ class Solution
 public:
     string largestGoodInteger(string num)
     {
-        string res = "";
-        string curr = "";
+        string res = "", curr = "";
         
         for(int idx = 0; idx < num.size(); ++idx)
         {
