@@ -1,14 +1,14 @@
 class Solution {
 public:
-    int maxWidthOfVerticalArea(vector<vector<int>>& points) {
+    int maxWidthOfVerticalArea(vector<vector<int>>& points)
+    {
         sort(points.begin(), points.end());
-        int res = 0;
         
-        // Find the distance of sorted point's adjacent x-axis, and maximum of
-        // it is the result
+        int mxWidth = 0;
+        
         for(int i = 1; i < points.size(); ++i)
-            res = max(res, (points[i][0]-points[i-1][0]));
+            mxWidth = max(mxWidth, (points[i][0] - points[i-1][0]));
         
-        return res;
+        return mxWidth;
     }
 };
