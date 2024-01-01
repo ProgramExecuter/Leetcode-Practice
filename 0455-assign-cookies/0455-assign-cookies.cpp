@@ -5,21 +5,15 @@ public:
         sort(siz.begin(), siz.end());
         
         int gIdx = 0, sIdx = 0, content = 0;
+        int lenG = greed.size(), lenS = siz.size();
         
-        while(gIdx < greed.size()  and  sIdx < siz.size())
+        while(gIdx < lenG  and  sIdx < lenS)
         {
             if(greed[gIdx] <= siz[sIdx])
-            {
                 ++gIdx;
-                ++sIdx;
-                ++content;
-            }
-            else
-            {
-                ++sIdx;
-            }
+            ++sIdx;
         }
         
-        return content;
+        return gIdx;
     }
 };
