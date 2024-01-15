@@ -1,34 +1,36 @@
+struct playerStats {
+    int wonCnt;
+    int loseCnt;
+};
 class Solution {
 public:
-    vector<vector<int>> findWinners(vector<vector<int>>& matches) {
-        // Track all the players
-        set<int> allPlayers;
+    vector<vector<int>> findWinners(vector<vector<int>>& matches)
+    {
+        map<int, playerStats> winLoss;
         
-        // Track the loss count of each player
-        map<int, int> playerLossCnt;
-        
-        // Check for each match
-        for(auto match : matches) {
-            // Store each player
-            allPlayers.insert(match[0]);
-            allPlayers.insert(match[1]);
+        for(auto match : matches)
+        {
+            int winner = match[0];
+            int loser  = match[1];
             
-            // Track the cnt of loss
-            playerLossCnt[match[1]] += 1;
+            winLoss[winner].wonCnt += 1;
+            winLoss[loser].loseCnt += 1;
         }
         
-        vector<int> noLossPlayers, oneLossPlayers;
+        vector<int> noLoss;
+        vector<int> oneLoss;
         
-        // Check for all players (in ascending order)
-        for(auto player : allPlayers) {
-            // This player never lost
-            if(playerLossCnt.find(player) == playerLossCnt.end())
-                noLossPlayers.push_back(player);
-            // This player lost exactly once
-            else if(playerLossCnt[player] == 1)
-                oneLossPlayers.push_back(player);
+        for(auto curr : winLoss)
+        {
+            // No Loss
+            if(curr.second.loseCnt == 0)
+                noLoss.push_back(curr.first);
+            
+            // Only one loss
+            if(curr.second.loseCnt == 1)
+                oneLoss.push_back(curr.first);
         }
         
-        return {noLossPlayers, oneLossPlayers};
+        return {noLoss, oneLoss};
     }
 };
