@@ -1,16 +1,19 @@
 class Solution {
 public:
-    int climbStairs(int n) {
-        if(n <= 2)      return n;                       // Base case for stairCnt = 1 or 2
+    int climbStairs(int n)
+    {
+        if(n <= 2)  return n;
         
-        int prev2 = 1, prev = 2;
+        int first = 1, second = 2;
         
-        for(int i = 3; i <= n; ++i) {                   // Calculate the ways
-            int curr = prev2 + prev;
-            prev2 = prev;
-            prev = curr;
+        for(int i = 3; i <= n; ++i)
+        {
+            int tmp = first + second;
+            
+            first = second;
+            second = tmp;
         }
         
-        return prev;
+        return second;
     }
 };
