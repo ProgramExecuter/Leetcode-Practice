@@ -8,14 +8,10 @@ public:
         int idx1 = 0, idx2 = 0;
         
         while(idx1+len <= len1  and  s1.substr(idx1, len) == matching)
-        {
             idx1 += len;
-        }
         
         while(idx2+len <= len2  and  s2.substr(idx2, len) == matching)
-        {
             idx2 += len;
-        }
         
         return idx1 == len1  and  idx2 == len2;
     }
@@ -23,25 +19,21 @@ public:
     {
         int len1 = str1.length(), len2 = str2.length();
         int idx1 = 0, idx2 = 0;
-        string matching = "";
-        string foundMatch = "";
+        string matching = "", foundMatch = "";
         
         while(idx1 < len1  and  idx2 < len2)
         {
-            cout << str1[idx1] << " " << str2[idx2] << " Hello \n";
             if(str1[idx1] == str2[idx2])
             {
                 matching += str1[idx1];
                 bool isDivisor = checkDivisor(matching, str1, str2);
+                                
+                ++idx1;
+                ++idx2;
                 
-                cout << " " << isDivisor << " -- " << matching << endl;
+                if(!isDivisor)      continue;
                 
-                ++idx1;     ++idx2;
-                
-                if(isDivisor)
-                    foundMatch = matching;
-                else
-                    continue;
+                foundMatch = matching;
             }
             else
             {
