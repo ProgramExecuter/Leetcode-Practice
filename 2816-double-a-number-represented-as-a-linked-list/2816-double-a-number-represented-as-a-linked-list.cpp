@@ -8,20 +8,37 @@
  *     ListNode(int x, ListNode *next) : val(x), next(next) {}
  * };
  */
-class Solution {
+class Solution
+{
 public:
-    ListNode* doubleIt(ListNode* head) {
-        if(head->val > 4) {
-            head = new ListNode(0, head);
+    pair<ListNode*,int> f(ListNode* head)
+    {
+        if(!head)       return {NULL, 0};
+        
+        auto tmp = f(head->next);
+        
+        int num = head->val * 2 + tmp.second;
+        int tmpRem = num / 10;
+        num = num % 10;
+        
+        head->val = num;
+        return {head, tmpRem};
+    }
+    ListNode* doubleIt(ListNode* head)
+    {
+        pair<ListNode*, int> res = f(head);
+        ListNode* newHead = NULL;
+        
+        if(res.second != 0)
+        {
+            newHead = new ListNode(res.second);
+            newHead->next = res.first;
+        }
+        else
+        {
+            newHead = res.first;
         }
         
-        for(auto curr = head; curr != NULL; curr = curr->next) {
-            curr->val = (curr->val * 2) % 10;
-            
-            if(curr->next && curr->next->val > 4)
-                curr->val += 1;
-        }
-        
-        return head;
+        return newHead;
     }
 };
