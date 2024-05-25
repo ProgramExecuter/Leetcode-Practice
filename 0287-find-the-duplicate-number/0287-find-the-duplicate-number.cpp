@@ -1,18 +1,26 @@
-class Solution {
+class Solution
+{
 public:
-    int findDuplicate(vector<int>& nums) {
-        int slow = nums[0], fast = nums[nums[0]];
+    int findDuplicate(vector<int>& nums)
+    {
+        /*
+            Use Tortoise Hare Method
+        */
+        int slow = nums[0], fast = nums[0];
         
-        // Find the loop startig point, using rabbit and hare method
-        while(slow != fast) {
+        
+        // Find Cycle
+        do
+        {
             slow = nums[slow];
             fast = nums[nums[fast]];
-        }
+        } while(slow != fast);
         
-        fast = 0;
+        slow = nums[0];
         
-        // Find the duplicate number now
-        while(slow != fast) {
+        // Now move both at same speed
+        while(slow != fast)
+        {
             slow = nums[slow];
             fast = nums[fast];
         }
