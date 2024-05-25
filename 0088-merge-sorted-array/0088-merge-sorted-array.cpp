@@ -4,8 +4,6 @@ public:
     {
         int gap = m + n;
         
-        cout << nums1.size() << " - " << m << " " << n << endl;
-        
         for(int i = 0; i < n; ++i)
         {
             nums1[m+i] = nums2[i];
