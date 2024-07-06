@@ -5,13 +5,9 @@ public:
         int noOfTimes = time / (n-1);
         int remaining = time % (n-1);
         
-        int finalIdx = 0;
-        
         if(noOfTimes % 2 == 0)
-            finalIdx = 1 + remaining;
+            return (1 + remaining);
         else
-            finalIdx = (n - remaining);
-        
-        return finalIdx;
+            return (n - remaining);
     }
 };
