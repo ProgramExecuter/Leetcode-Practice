@@ -10,9 +10,7 @@ public:
             {
                 if(currLevel > 0)   --currLevel;
             }
-            else if(log == "./")
-                ;
-            else
+            else if(log != "./")
                 ++currLevel;
         }
         
