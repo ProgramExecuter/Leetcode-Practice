@@ -105,11 +105,9 @@ public:
         string completeFormula = "";
         while(!st.empty())
         {
-            cout << st.top() << "-\n";
             completeFormula += st.top();
             st.pop();
         }
-        cout << "Complete - " << completeFormula << endl;
         
         // Parse complete formula for mapping
         map<string, int> mp;
@@ -122,7 +120,6 @@ public:
                 {
                     if(currCnt == 0)
                         currCnt = 1;
-                    cout << "Curr " << currElement << " " << currCnt << endl;
                     mp[currElement] += currCnt;
                 }
                 currElement = "", currCnt = 0;
@@ -155,7 +152,6 @@ public:
                 resFormula += to_string(i.second);
         }
         
-        cout << endl;
         return resFormula;
     }
 };
