@@ -1,39 +1,7 @@
 class Solution {
 public:
-    string newFormula(string str, int cnt)
+    void addElementForNewFormula(string &currEle, int &currCnt, int &cnt, string &res)
     {
-        if(cnt == 0)
-            return str;
-        
-        string res = "";
-        
-        string currEle = "";
-        int currCnt = 0;
-        
-        for(char ch : str)
-        {
-            if(ch >= 'A'  and  ch <= 'Z')
-            {
-                if(currEle != "")
-                {
-                    res += currEle;
-                    if(currCnt == 0)        currCnt = 1;
-                    
-                    res += to_string(1ll * cnt * currCnt);
-                }
-                currEle = "", currCnt = 0;
-                
-                currEle += ch;
-            }
-            else if(ch >= 'a'  and  ch <= 'z')
-            {
-                currEle += ch;
-            }
-            else
-            {
-                currCnt = currCnt * 10  + (ch - '0');
-            }
-        }
         if(currEle != "")
         {
             res += currEle;
@@ -41,8 +9,7 @@ public:
                     
             res += to_string(1ll * cnt * currCnt);
         }
-        
-        return res;
+        currEle = "", currCnt = 0;
     }
     void addPreviousFormulaToStack(string &currElement, int &currCnt, stack<string> &st)
     {
@@ -54,11 +21,39 @@ public:
     {
         if(currElement != "")
         {
-            if(currCnt == 0)
-                currCnt = 1;
+            // For counting purposes, since we didn't have number after this type of atoms
+            if(currCnt == 0)    currCnt = 1;
             mp[currElement] += currCnt;
         }
         currElement = "", currCnt = 0;
+    }
+    string newFormula(string str, int cnt)
+    {
+        // No need to change
+        if(cnt == 0)    return str;
+        
+        string res = "";
+        string currEle = "";
+        int currCnt = 0;
+        
+        for(char ch : str)
+        {
+            // Start of element
+            if(ch >= 'A'  and  ch <= 'Z')
+            {
+                addElementForNewFormula(currEle, currCnt, cnt, res);
+                currEle += ch;
+            }
+            // Continuing element name
+            else if(ch >= 'a'  and  ch <= 'z')
+                currEle += ch;
+            // No. of atoms of element
+            else
+                currCnt = currCnt * 10  + (ch - '0');
+        }
+        addElementForNewFormula(currEle, currCnt, cnt, res);
+        
+        return res;
     }
     string countOfAtoms(string formula)
     {
