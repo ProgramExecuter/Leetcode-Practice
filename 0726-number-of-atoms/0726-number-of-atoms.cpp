@@ -44,10 +44,20 @@ public:
         
         return res;
     }
-    void addStringToStack(string &currElement, int &currCnt, stack<string> &st)
+    void addPreviousFormulaToStack(string &currElement, int &currCnt, stack<string> &st)
     {
         if(currElement != "")
             st.push(newFormula(currElement, currCnt));
+        currElement = "", currCnt = 0;
+    }
+    void addPreviousFormulaToMap(string &currElement, int &currCnt, map<string, int> &mp)
+    {
+        if(currElement != "")
+        {
+            if(currCnt == 0)
+                currCnt = 1;
+            mp[currElement] += currCnt;
+        }
         currElement = "", currCnt = 0;
     }
     string countOfAtoms(string formula)
@@ -59,49 +69,62 @@ public:
         
         for(char ch : formula)
         {
+            // Start of an element name
             if(ch >= 'A' and ch <= 'Z')
             {
-                addStringToStack(currElement, currCnt, st);
+                // Check if there was any previous element before this
+                addPreviousFormulaToStack(currElement, currCnt, st);
+                
                 currElement += ch;
             }
+            // Maybe ongoing element name
             else if(ch >= 'a' and ch <= 'z')
                 currElement += ch;
+            // Calculate no. of atoms
             else if(ch >= '0' and ch <= '9')
                 currCnt = currCnt * 10 + (ch - '0');
+            // Start of grouped formula
             else if(ch == '(')
             {
-                addStringToStack(currElement, currCnt, st);
+                // Check if there was any previous element before this
+                addPreviousFormulaToStack(currElement, currCnt, st);
+                
                 st.push(string(1, ch));
             }
+            // End of grouped formula  ')'
             else
             {
-                addStringToStack(currElement, currCnt, st);
+                // Check if there was any previous element before this
+                addPreviousFormulaToStack(currElement, currCnt, st);
                 
-                vector<string> tmp;
+                // vector<string> tmp;
                 string tmpFormula;
                 
+                // Get all the elements grouped in current bracket ()
                 while(!st.empty()  and  st.top() != "(")
                 {
-                    tmp.push_back(st.top());
+                    // tmp.push_back(st.top());
+                    tmpFormula += st.top();
                     st.pop();
                 }
-                cout << "\n";
-                reverse(tmp.begin(), tmp.end());
+                // reverse(tmp.begin(), tmp.end());
                 
-                for(string curr : tmp)
-                    tmpFormula += curr;
+                // Create current grouped formula
+                // for(string curr : tmp)
+                //     tmpFormula += curr;
                 
                 // Remove bracket
-                if(!st.empty())
+                // if(!st.empty())
                     st.pop();
                 
+                // Add complete grouped formula to the stack
                 currElement = tmpFormula;
             }
         }
-        addStringToStack(currElement, currCnt, st);
+        addPreviousFormulaToStack(currElement, currCnt, st);
         
         
-        // Create complete Formula
+        // Create complete Formula by popping from stack
         string completeFormula = "";
         while(!st.empty())
         {
@@ -109,42 +132,35 @@ public:
             st.pop();
         }
         
-        // Parse complete formula for mapping
+        
+        // Atoms to no. of atoms mapping
         map<string, int> mp;
         currElement = "", currCnt = 0;
+        
+        
+        // Parse complete formula for mapping
         for(auto ch : completeFormula)
         {
+            // Start of new element
             if(ch >= 'A'  and  ch <= 'Z')
             {
-                if(currElement != "")
-                {
-                    if(currCnt == 0)
-                        currCnt = 1;
-                    mp[currElement] += currCnt;
-                }
-                currElement = "", currCnt = 0;
+                addPreviousFormulaToMap(currElement, currCnt, mp);
                 
                 currElement += ch;
             }
+            // Continuation of an element name
             else if(ch >= 'a'  and  ch <= 'z')
-            {
                 currElement += ch;
-            }
+            // No. of atoms
             else
-            {
                 currCnt = currCnt * 10  + (ch - '0');
-            }
         }
-        if(currElement != "")
-        {
-            if(currCnt == 0)
-                currCnt = 1;
-            mp[currElement] += currCnt;
-        }
+        addPreviousFormulaToMap(currElement, currCnt, mp);
         
         
         // Resultant Formula for returning
         string resFormula = "";
+        
         for(auto i : mp)
         {
             resFormula += i.first;
