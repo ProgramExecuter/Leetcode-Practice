@@ -97,25 +97,16 @@ public:
                 // Check if there was any previous element before this
                 addPreviousFormulaToStack(currElement, currCnt, st);
                 
-                // vector<string> tmp;
-                string tmpFormula;
-                
                 // Get all the elements grouped in current bracket ()
+                string tmpFormula;
                 while(!st.empty()  and  st.top() != "(")
                 {
-                    // tmp.push_back(st.top());
                     tmpFormula += st.top();
                     st.pop();
                 }
-                // reverse(tmp.begin(), tmp.end());
-                
-                // Create current grouped formula
-                // for(string curr : tmp)
-                //     tmpFormula += curr;
                 
                 // Remove bracket
-                // if(!st.empty())
-                    st.pop();
+                st.pop();
                 
                 // Add complete grouped formula to the stack
                 currElement = tmpFormula;
