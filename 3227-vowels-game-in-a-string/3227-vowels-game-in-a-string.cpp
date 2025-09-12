@@ -6,7 +6,6 @@ public:
             if(ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u')
                 ++vowelCnt;
         }
-        if(vowelCnt == 0)   return false;
-        return true;
+        return vowelCnt;
     }
 };
