@@ -7,17 +7,18 @@ public:
         );
     }
     string sortVowels(string s) {
-        multiset<char> vowels;
+        unordered_map<char, int> count;
         for(char ch : s) {
-            if(isVowel(ch))     vowels.insert(ch);
+            if(isVowel(ch))     count[ch] += 1;
         }
 
-        string res;
-        auto itr = vowels.begin();
+        string res, sortedVowels = "AEIOUaeiou";
+        auto idx = 0;
         for(char ch : s) {
             if(isVowel(ch)) {
-                res += *itr;
-                ++itr;
+                while(count[sortedVowels[idx]] == 0) { ++idx; }
+                res += sortedVowels[idx];
+                --count[sortedVowels[idx]];
             } else {
                 res += ch;
             }
