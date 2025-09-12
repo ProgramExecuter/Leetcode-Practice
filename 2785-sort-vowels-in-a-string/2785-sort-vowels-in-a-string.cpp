@@ -1,24 +1,28 @@
 class Solution {
 public:
-    bool isVowel(char ch)
-    {
-        if(ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u' ||
-          ch == 'A' || ch == 'E' || ch == 'I' || ch == 'O' || ch == 'U')
-            return true;
-        return false;
+    char isVowel(char& ch) {
+        return (
+            ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u'
+            || ch == 'A' || ch == 'E' || ch == 'I' || ch == 'O' || ch == 'U'
+        );
     }
-    string sortVowels(string s) 
-    {
-        vector<char> vowels;
-        for(char ch : s)
-            if(isVowel(ch))     vowels.push_back(ch);
-        
-        sort(vowels.begin(), vowels.end());
-        
-        int i = 0;
-        for(int idx = 0; idx < s.size(), i < vowels.size(); ++idx)
-            if(isVowel(s[idx]))     s[idx] = vowels[i++];
-        
-        return s;
+    string sortVowels(string s) {
+        multiset<char> vowels;
+        for(char ch : s) {
+            if(isVowel(ch))     vowels.insert(ch);
+        }
+
+        string res;
+        auto itr = vowels.begin();
+        for(char ch : s) {
+            if(isVowel(ch)) {
+                res += *itr;
+                ++itr;
+            } else {
+                res += ch;
+            }
+        }
+
+        return res;
     }
 };
