@@ -12,18 +12,16 @@ public:
             if(isVowel(ch))     count[ch] += 1;
         }
 
-        string res, sortedVowels = "AEIOUaeiou";
-        auto idx = 0;
-        for(char ch : s) {
-            if(isVowel(ch)) {
+        string sortedVowels = "AEIOUaeiou";
+        int idx = 0, len = s.size();
+        for(int i = 0; i < len; ++i) {
+            if(isVowel(s[i])) {
                 while(count[sortedVowels[idx]] == 0) { ++idx; }
-                res += sortedVowels[idx];
+                s[i] = sortedVowels[idx];
                 --count[sortedVowels[idx]];
-            } else {
-                res += ch;
             }
         }
 
-        return res;
+        return s;
     }
 };
