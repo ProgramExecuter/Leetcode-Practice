@@ -6,11 +6,9 @@ public:
 
         for(int num : nums) {
             sum += num;
-
             if(sum == k) { ++res; }
             
             res += presumCntMap[sum-k];
-
             presumCntMap[sum] += 1;
         }
 
