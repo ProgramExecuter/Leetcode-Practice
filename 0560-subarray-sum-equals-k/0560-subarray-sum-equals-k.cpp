@@ -1,3 +1,9 @@
+auto _ = []() {
+    std::ios_base::sync_with_stdio(false);
+    std::cin.tie(NULL);
+    return 0;
+}();
+
 class Solution {
 public:
     int subarraySum(vector<int>& nums, int k) {
