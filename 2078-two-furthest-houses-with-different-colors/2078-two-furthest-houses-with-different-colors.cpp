@@ -4,12 +4,10 @@ public:
         int n = colors.size(), res = 0;
 
         for(int i = 0; i < n; ++i) {
-            for(int j = i+1; j < n; ++j) {
-                if(colors[i] != colors[j])
-                    res = max(res, j-i);
-            }
+            if(/*Left*/colors[i] != colors[n-1]  ||  /*Right*/colors[n-1-i] != colors[0])
+                return n-1-i;
         }
 
-        return res;
+        return 0;
     }
 };
