@@ -1,10 +1,5 @@
 class Solution {
 public:
-    void twoSum(vector<int>& nums, int st, int en, vector<vector<int>>& res, int target) {
-        while(st < en) {
-            
-        }
-    }
     vector<vector<int>> threeSum(vector<int>& nums) {
         int len = nums.size();
         sort(nums.begin(), nums.end());
