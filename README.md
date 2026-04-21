@@ -5,6 +5,7 @@
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0015-3sum](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0015-3sum/) | Medium |
 | [0054-spiral-matrix](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0054-spiral-matrix/) | Medium |
 | [0118-pascals-triangle](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0118-pascals-triangle/) | Easy |
 | [0169-majority-element](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0169-majority-element/) | Easy |
@@ -44,6 +45,7 @@
 ## Sorting
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0015-3sum](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0015-3sum/) | Medium |
 | [0169-majority-element](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0169-majority-element/) | Easy |
 | [0229-majority-element-ii](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0229-majority-element-ii/) | Medium |
 ## Counting
@@ -51,4 +53,8 @@
 | ------- | ------- |
 | [0169-majority-element](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0169-majority-element/) | Easy |
 | [0229-majority-element-ii](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0229-majority-element-ii/) | Medium |
+## Two Pointers
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0015-3sum](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0015-3sum/) | Medium |
 <!---LeetCode Topics End-->
