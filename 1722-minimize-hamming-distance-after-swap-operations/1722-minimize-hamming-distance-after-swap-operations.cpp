@@ -37,22 +37,16 @@ public:
         int len = source.size();
         DisjointSet dj(len);
 
+        // Create disjoint set
         for(auto link : allowedSwaps) {
             dj.unionByRank(link[0], link[1]);
         }
 
-        map<int, map<int, int>> parToEleCnt;
-
+        // Create a map of parent to each disjoint set's element count
+        unordered_map<int, unordered_map<int, int>> parToEleCnt;
         for(int i = 0; i < len; ++i) {
             int par = dj.findUPar(i);
             ++parToEleCnt[par][source[i]];
-
-            // if(parToEleCnt.find(par) == parToEleCnt.end()) {
-            //     map<int, int> tmp;      ++tmp[source[i]];    ++tmp[source[par]];
-            //     parToEleCnt[par] = tmp;
-            // } else {
-            //     ++parToEleCnt[par][source[i]];
-            // }
         }
 
         int res = 0;
