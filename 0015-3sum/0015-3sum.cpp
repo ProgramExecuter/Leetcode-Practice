@@ -4,16 +4,13 @@ public:
         while(st < en) {
             if(nums[st] + nums[en] == target) {
                 res.push_back({-1*target, nums[st], nums[en]});
-                ++st;
+                ++st;   --en;
                 while(st < en  &&  nums[st-1] == nums[st]) { ++st; }
-                --en;
                 while(en > st  &&  nums[en] == nums[en+1]) { --en; }
             } else if(nums[st] + nums[en] < target) {
                 ++st;
-                while(st < en  &&  nums[st-1] == nums[st]) { ++st; }
             } else {
                 --en;
-                while(en > st  &&  nums[en] == nums[en+1]) { --en; }
             }
         }
     }
