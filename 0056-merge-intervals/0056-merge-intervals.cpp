@@ -11,7 +11,7 @@ public:
                 continue;
             }
 
-            if(res.back()[1] < interval[1])     res.back()[1] = interval[1];
+            res.back()[1] = max(res.back()[1], interval[1]);
         }
 
         return res;
