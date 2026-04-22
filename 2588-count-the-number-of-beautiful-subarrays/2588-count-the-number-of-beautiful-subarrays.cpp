@@ -9,10 +9,8 @@ public:
         for(int i = 0; i < len; ++i) {
             currXor ^= nums[i];
 
-            res += xorCnt[currXor];
-            ++xorCnt[currXor];
+            res += xorCnt[currXor]++;
         }
-        // if(currXor == 0)    ++res;
 
         return res;
     }
