@@ -1,27 +1,19 @@
 class Solution {
 public:
-    vector<vector<int>> merge(vector<vector<int>>& intervals)
-    {
+    vector<vector<int>> merge(vector<vector<int>>& intervals) {
         sort(intervals.begin(), intervals.end());
-        int currSt = intervals[0][0], currEn = intervals[0][1];
-        
         vector<vector<int>> res;
-        for(int i = 1; i < intervals.size(); ++i)
-        {
-            if(intervals[i][0] > currEn)
-            {
-                res.push_back({currSt, currEn});
-                currSt = intervals[i][0];
-                currEn = intervals[i][1];
+
+        for(auto interval : intervals) {
+            // New interval
+            if(res.empty() || (!res.empty() && interval[0] > res.back()[1])) {
+                res.push_back(interval);
+                continue;
             }
-            else
-            {
-                currEn = max(currEn, intervals[i][1]);
-            }
+
+            if(res.back()[1] < interval[1])     res.back()[1] = interval[1];
         }
-        res.push_back({currSt, currEn});
-        
-        
+
         return res;
     }
 };
