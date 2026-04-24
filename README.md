@@ -70,6 +70,7 @@
 | ------- | ------- |
 | [0169-majority-element](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0169-majority-element/) | Easy |
 | [0229-majority-element-ii](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0229-majority-element-ii/) | Medium |
+| [2833-furthest-point-from-origin](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/2833-furthest-point-from-origin/) | Easy |
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -88,6 +89,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [2452-words-within-two-edits-of-dictionary](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/2452-words-within-two-edits-of-dictionary/) | Medium |
+| [2833-furthest-point-from-origin](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/2833-furthest-point-from-origin/) | Easy |
 ## Trie
 | Problem Name | Difficulty |
 | ------- | ------- |
