@@ -21,6 +21,7 @@
 | [2588-count-the-number-of-beautiful-subarrays](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/2588-count-the-number-of-beautiful-subarrays/) | Medium |
 | [2615-sum-of-distances](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/2615-sum-of-distances/) | Medium |
 | [2965-find-missing-and-repeated-values](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/2965-find-missing-and-repeated-values/) | Easy |
+| [3464-maximize-the-distance-between-points-on-a-square](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/3464-maximize-the-distance-between-points-on-a-square/) | Hard |
 ## Matrix
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -67,6 +68,7 @@
 | [0088-merge-sorted-array](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0088-merge-sorted-array/) | Easy |
 | [0169-majority-element](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0169-majority-element/) | Easy |
 | [0229-majority-element-ii](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0229-majority-element-ii/) | Medium |
+| [3464-maximize-the-distance-between-points-on-a-square](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/3464-maximize-the-distance-between-points-on-a-square/) | Hard |
 ## Counting
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -104,10 +106,12 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [2965-find-missing-and-repeated-values](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/2965-find-missing-and-repeated-values/) | Easy |
+| [3464-maximize-the-distance-between-points-on-a-square](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/3464-maximize-the-distance-between-points-on-a-square/) | Hard |
 ## Binary Search
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0493-reverse-pairs](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0493-reverse-pairs/) | Hard |
+| [3464-maximize-the-distance-between-points-on-a-square](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/3464-maximize-the-distance-between-points-on-a-square/) | Hard |
 ## Binary Indexed Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -124,4 +128,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0493-reverse-pairs](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0493-reverse-pairs/) | Hard |
+## Geometry
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3464-maximize-the-distance-between-points-on-a-square](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/3464-maximize-the-distance-between-points-on-a-square/) | Hard |
 <!---LeetCode Topics End-->
