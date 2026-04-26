@@ -13,9 +13,7 @@ public:
                 res = max(res, currProd);
             }
             res = max(res, nums[i]);
-            cout << "Res:" << res << " Idx:" << i << " Curr:" << currProd << " Ele:" << nums[i] << endl;
         }
-        cout << "First Done\n";
 
         currProd = 1;
         for(int i = n-1; i >= 0; --i) {
@@ -25,7 +23,6 @@ public:
                 currProd *= nums[i];
                 res = max(res, currProd);
             }
-            cout << "Res:" << res << " Idx:" << i << " Curr:" << currProd << " Ele:" << nums[i] << endl;
         }
 
         return res;
