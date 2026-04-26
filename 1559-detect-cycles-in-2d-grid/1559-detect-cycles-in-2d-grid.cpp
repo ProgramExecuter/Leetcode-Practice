@@ -1,8 +1,7 @@
 class Solution {
 public:
     int m, n;
-    pair<int,int> startIdx;
-
+    
     bool dfs(vector<vector<char>>& grid, int i, int j, pair<int,int> prevIdx, set<pair<int, int>>& vis, char prevChar) {
         vector<pair<int,int>> dirs({{0,1}, {1,0}, {0,-1}, {-1,0}});
         vis.insert({i,j});
@@ -28,7 +27,6 @@ public:
             for(int j = 0; j < n; ++j) {
                 if(vis.find({i,j}) != vis.end())
                     continue;
-                startIdx = {i,j};
 
                 if(!dfs(grid, i, j, {-1,-1}, vis, grid[i][j]))
                     return true;
