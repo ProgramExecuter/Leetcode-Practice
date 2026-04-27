@@ -7,6 +7,7 @@
 | ------- | ------- |
 | [0015-3sum](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0015-3sum/) | Medium |
 | [0018-4sum](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0018-4sum/) | Medium |
+| [0033-search-in-rotated-sorted-array](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0033-search-in-rotated-sorted-array/) | Medium |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0034-find-first-and-last-position-of-element-in-sorted-array/) | Medium |
 | [0054-spiral-matrix](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0054-spiral-matrix/) | Medium |
 | [0056-merge-intervals](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0056-merge-intervals/) | Medium |
@@ -117,6 +118,7 @@
 ## Binary Search
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0033-search-in-rotated-sorted-array](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0033-search-in-rotated-sorted-array/) | Medium |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0034-find-first-and-last-position-of-element-in-sorted-array/) | Medium |
 | [0493-reverse-pairs](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0493-reverse-pairs/) | Hard |
 | [3464-maximize-the-distance-between-points-on-a-square](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/3464-maximize-the-distance-between-points-on-a-square/) | Hard |
