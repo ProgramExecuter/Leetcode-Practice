@@ -24,6 +24,7 @@
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
 | [1559-detect-cycles-in-2d-grid](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/1559-detect-cycles-in-2d-grid/) | Medium |
 | [1722-minimize-hamming-distance-after-swap-operations](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/1722-minimize-hamming-distance-after-swap-operations/) | Medium |
+| [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/2033-minimum-operations-to-make-a-uni-value-grid/) | Medium |
 | [2078-two-furthest-houses-with-different-colors](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/2078-two-furthest-houses-with-different-colors/) | Easy |
 | [2452-words-within-two-edits-of-dictionary](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/2452-words-within-two-edits-of-dictionary/) | Medium |
 | [2588-count-the-number-of-beautiful-subarrays](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/2588-count-the-number-of-beautiful-subarrays/) | Medium |
@@ -36,6 +37,7 @@
 | [0054-spiral-matrix](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0054-spiral-matrix/) | Medium |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
 | [1559-detect-cycles-in-2d-grid](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/1559-detect-cycles-in-2d-grid/) | Medium |
+| [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/2033-minimum-operations-to-make-a-uni-value-grid/) | Medium |
 | [2965-find-missing-and-repeated-values](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/2965-find-missing-and-repeated-values/) | Easy |
 ## Simulation
 | Problem Name | Difficulty |
@@ -79,6 +81,7 @@
 | [0088-merge-sorted-array](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0088-merge-sorted-array/) | Easy |
 | [0169-majority-element](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0169-majority-element/) | Easy |
 | [0229-majority-element-ii](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0229-majority-element-ii/) | Medium |
+| [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/2033-minimum-operations-to-make-a-uni-value-grid/) | Medium |
 | [3464-maximize-the-distance-between-points-on-a-square](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/3464-maximize-the-distance-between-points-on-a-square/) | Hard |
 ## Counting
 | Problem Name | Difficulty |
@@ -120,6 +123,7 @@
 ## Math
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/2033-minimum-operations-to-make-a-uni-value-grid/) | Medium |
 | [2965-find-missing-and-repeated-values](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/2965-find-missing-and-repeated-values/) | Easy |
 | [3464-maximize-the-distance-between-points-on-a-square](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/3464-maximize-the-distance-between-points-on-a-square/) | Hard |
 ## Binary Search
