@@ -32,6 +32,7 @@
 | [2588-count-the-number-of-beautiful-subarrays](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/2588-count-the-number-of-beautiful-subarrays/) | Medium |
 | [2615-sum-of-distances](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/2615-sum-of-distances/) | Medium |
 | [2965-find-missing-and-repeated-values](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/2965-find-missing-and-repeated-values/) | Easy |
+| [3225-maximum-score-from-grid-operations](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/3225-maximum-score-from-grid-operations/) | Hard |
 | [3464-maximize-the-distance-between-points-on-a-square](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/3464-maximize-the-distance-between-points-on-a-square/) | Hard |
 ## Matrix
 | Problem Name | Difficulty |
@@ -41,6 +42,7 @@
 | [1559-detect-cycles-in-2d-grid](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/1559-detect-cycles-in-2d-grid/) | Medium |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/2033-minimum-operations-to-make-a-uni-value-grid/) | Medium |
 | [2965-find-missing-and-repeated-values](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/2965-find-missing-and-repeated-values/) | Easy |
+| [3225-maximum-score-from-grid-operations](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/3225-maximum-score-from-grid-operations/) | Hard |
 ## Simulation
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -64,11 +66,13 @@
 | [0560-subarray-sum-equals-k](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0560-subarray-sum-equals-k/) | Medium |
 | [2588-count-the-number-of-beautiful-subarrays](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/2588-count-the-number-of-beautiful-subarrays/) | Medium |
 | [2615-sum-of-distances](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/2615-sum-of-distances/) | Medium |
+| [3225-maximum-score-from-grid-operations](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/3225-maximum-score-from-grid-operations/) | Hard |
 ## Dynamic Programming
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0118-pascals-triangle](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0118-pascals-triangle/) | Easy |
 | [0152-maximum-product-subarray](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0152-maximum-product-subarray/) | Medium |
+| [3225-maximum-score-from-grid-operations](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/3225-maximum-score-from-grid-operations/) | Hard |
 ## Divide and Conquer
 | Problem Name | Difficulty |
 | ------- | ------- |
