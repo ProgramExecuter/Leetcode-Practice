@@ -22,6 +22,7 @@
 | [0493-reverse-pairs](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0493-reverse-pairs/) | Hard |
 | [0540-single-element-in-a-sorted-array](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0540-single-element-in-a-sorted-array/) | Medium |
 | [0560-subarray-sum-equals-k](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0560-subarray-sum-equals-k/) | Medium |
+| [0875-koko-eating-bananas](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0875-koko-eating-bananas/) | Medium |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
 | [1559-detect-cycles-in-2d-grid](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/1559-detect-cycles-in-2d-grid/) | Medium |
 | [1722-minimize-hamming-distance-after-swap-operations](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/1722-minimize-hamming-distance-after-swap-operations/) | Medium |
@@ -139,6 +140,7 @@
 | [0162-find-peak-element](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0162-find-peak-element/) | Medium |
 | [0493-reverse-pairs](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0493-reverse-pairs/) | Hard |
 | [0540-single-element-in-a-sorted-array](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0540-single-element-in-a-sorted-array/) | Medium |
+| [0875-koko-eating-bananas](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0875-koko-eating-bananas/) | Medium |
 | [3464-maximize-the-distance-between-points-on-a-square](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/3464-maximize-the-distance-between-points-on-a-square/) | Hard |
 ## Binary Indexed Tree
 | Problem Name | Difficulty |
