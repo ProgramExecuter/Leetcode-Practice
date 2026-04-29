@@ -1,20 +1,21 @@
-class Solution
-{
+class Solution {
 public:
-    int mySqrt(int x)
-    {
-        long long left = 1, right = 1ll + x;
-        
-        while(left < right)
-        {
-            int mid = left + (right - left) / 2;
-            
-            if(1ll * mid * mid  >  x)
-                right = mid;
-            else
-                left = mid + 1;
+    int mySqrt(int x) {
+        int low = 0, high = x, res = 1;
+
+        while(low <= high) {
+            int mid = low + (high-low)/2;
+
+            if(1ll*mid*mid == x) {
+                return mid;
+            } else if(1ll*mid*mid < x) {
+                res = mid;
+                low = mid + 1;
+            } else {
+                high = mid - 1;
+            }
         }
-        
-        return left - 1;
+
+        return res;
     }
 };
