@@ -1,47 +1,52 @@
 class Solution {
 public:
-    bool canBeDone(vector<int>& bloomDay, int days, int m, int k)
-    {
-        int currCnt = 0, cntMade = 0;
+    int cntMadeBouqet(vector<int>& bloomDay, int& n, int& cntNeed, int& days) {
+        int cntBloomed = 0, currIdx = 0, startIdx = 0, totalBouquets = 0;
         
-        for(int curr : bloomDay)
-        {
-            if(curr > days)     // Didn't bloom till now
-            {
-                cntMade += currCnt / k;
-                currCnt = 0;
+        while(currIdx < n) {
+            if(bloomDay[currIdx] <= days) {
+                ++cntBloomed;
             }
-            else                // Bloomed, can be used in bouquet
-            {
-                ++currCnt;
+
+            // We've got a window
+            if(currIdx-startIdx+1 == cntNeed) {
+                if(cntBloomed == cntNeed) {
+                    ++totalBouquets;
+                    startIdx = currIdx + 1;
+                    cntBloomed = 0;
+                } else {
+                    // Slide starting element of this window forward
+                    if(bloomDay[startIdx] <= days)  --cntBloomed;
+                    ++startIdx;
+                }
             }
+
+            ++currIdx;
         }
-        cntMade += currCnt / k;
-        
-        // Check is bouqets that can be made is > required bouqets to be made
-        return cntMade >= m;
+
+        return totalBouquets;
     }
-    int minDays(vector<int>& bloomDay, int m, int k)
-    {
-        // Not enough flowers
-        if(1ll * m * k  >  bloomDay.size())
-            return -1;
-        
-        int mxBloom = 0;
-        for(int x : bloomDay)   mxBloom = max(mxBloom, x);
-        
-        // Find the min. no of days required using BINARY SEARCH
-        int left = 1, right = mxBloom;
-        while(left < right)
-        {
-            int mid = left + (right - left) / 2;
-            
-            if(canBeDone(bloomDay, mid, m, k))
-                right = mid;
-            else
-                left = mid + 1;
+    int minDays(vector<int>& bloomDay, int m, int k) {
+        int n = bloomDay.size();
+
+        // Not enough flowers for bouquet
+        if(1ll*m*k > n)     return -1;
+
+        int low = 1, high = 1, res = -1;
+        for(int num : bloomDay)     high = max(high, num);
+
+        while(low <= high) {
+            int mid = low + (high - low) / 2;
+            int bouquetCnt = cntMadeBouqet(bloomDay, n, k, mid);
+
+            if(bouquetCnt >= m) {
+                res = mid;
+                high = mid - 1;
+            } else {
+                low = mid + 1;
+            }
         }
-        
-        return left;
+
+        return res;
     }
 };
