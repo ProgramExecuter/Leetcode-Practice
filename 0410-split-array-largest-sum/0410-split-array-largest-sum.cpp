@@ -1,40 +1,38 @@
 class Solution {
 public:
-    bool splitPossible(vector<int>& nums, int maxSum, int k)
-    {
-        int currSum = 0, splits = 1;
-        
-        for(int i = 0; i < nums.size(); ++i)
-        {
-            if(nums[i] > maxSum)    return false;
-            if(currSum + nums[i]  >  maxSum)
-            {
-                currSum = 0;
-                ++splits;
+    int cntSubarrays(vector<int>& nums, int& mxSum) {
+        int currSum = 0, cnt = 1;
+
+        for(int num : nums) {
+            if(currSum + num > mxSum) {
+                currSum = num;
+                ++cnt;
+            } else {
+                currSum += num;
             }
-            
-            currSum += nums[i];
         }
-        
-        return splits <= k;
+
+        return cnt;
     }
-    int splitArray(vector<int>& nums, int k) 
-    {
-        int sum = 0;
-        for(int x : nums)   sum += x;
-        
-        int left = 0, right = sum;
-        
-        while(left < right)
-        {
-            int mid = left + (right - left) / 2;
-            
-            if(splitPossible(nums, mid, k))
-                right = mid;
-            else
-                left = mid + 1;
+    int splitArray(vector<int>& nums, int k) {
+        int n = nums.size(), low = 0, high = 0, res = 0;
+        for(int i : nums) {
+            high += i;
+            low = max(low, i);
         }
-        
-        return left;
+
+        while(low <= high) {
+            int mid = low + (high - low) / 2;
+            int cntSubs = cntSubarrays(nums, mid);
+
+            if(cntSubs <= k) {
+                res = mid;
+                high = mid - 1;
+            } else {
+                low = mid + 1;
+            }
+        }
+
+        return res;
     }
 };
