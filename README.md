@@ -20,6 +20,7 @@
 | [0169-majority-element](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0169-majority-element/) | Easy |
 | [0229-majority-element-ii](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0229-majority-element-ii/) | Medium |
 | [0396-rotate-function](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0396-rotate-function/) | Medium |
+| [0410-split-array-largest-sum](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0410-split-array-largest-sum/) | Hard |
 | [0493-reverse-pairs](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0493-reverse-pairs/) | Hard |
 | [0540-single-element-in-a-sorted-array](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0540-single-element-in-a-sorted-array/) | Medium |
 | [0560-subarray-sum-equals-k](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0560-subarray-sum-equals-k/) | Medium |
@@ -57,6 +58,7 @@
 ## Greedy
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0410-split-array-largest-sum](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0410-split-array-largest-sum/) | Hard |
 | [2078-two-furthest-houses-with-different-colors](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/2078-two-furthest-houses-with-different-colors/) | Easy |
 ## Hash Table
 | Problem Name | Difficulty |
@@ -70,6 +72,7 @@
 ## Prefix Sum
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0410-split-array-largest-sum](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0410-split-array-largest-sum/) | Hard |
 | [0560-subarray-sum-equals-k](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0560-subarray-sum-equals-k/) | Medium |
 | [2588-count-the-number-of-beautiful-subarrays](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/2588-count-the-number-of-beautiful-subarrays/) | Medium |
 | [2615-sum-of-distances](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/2615-sum-of-distances/) | Medium |
@@ -80,6 +83,7 @@
 | [0118-pascals-triangle](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0118-pascals-triangle/) | Easy |
 | [0152-maximum-product-subarray](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0152-maximum-product-subarray/) | Medium |
 | [0396-rotate-function](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0396-rotate-function/) | Medium |
+| [0410-split-array-largest-sum](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0410-split-array-largest-sum/) | Hard |
 | [3225-maximum-score-from-grid-operations](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/3225-maximum-score-from-grid-operations/) | Hard |
 | [3742-maximum-path-score-in-a-grid](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/3742-maximum-path-score-in-a-grid/) | Medium |
 ## Divide and Conquer
@@ -152,6 +156,7 @@
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0081-search-in-rotated-sorted-array-ii/) | Medium |
 | [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0154-find-minimum-in-rotated-sorted-array-ii/) | Hard |
 | [0162-find-peak-element](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0162-find-peak-element/) | Medium |
+| [0410-split-array-largest-sum](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0410-split-array-largest-sum/) | Hard |
 | [0493-reverse-pairs](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0493-reverse-pairs/) | Hard |
 | [0540-single-element-in-a-sorted-array](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0540-single-element-in-a-sorted-array/) | Medium |
 | [0875-koko-eating-bananas](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0875-koko-eating-bananas/) | Medium |
