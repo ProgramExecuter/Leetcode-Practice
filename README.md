@@ -19,6 +19,7 @@
 | [0162-find-peak-element](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0162-find-peak-element/) | Medium |
 | [0169-majority-element](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0169-majority-element/) | Easy |
 | [0229-majority-element-ii](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0229-majority-element-ii/) | Medium |
+| [0396-rotate-function](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0396-rotate-function/) | Medium |
 | [0493-reverse-pairs](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0493-reverse-pairs/) | Hard |
 | [0540-single-element-in-a-sorted-array](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0540-single-element-in-a-sorted-array/) | Medium |
 | [0560-subarray-sum-equals-k](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0560-subarray-sum-equals-k/) | Medium |
@@ -78,6 +79,7 @@
 | ------- | ------- |
 | [0118-pascals-triangle](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0118-pascals-triangle/) | Easy |
 | [0152-maximum-product-subarray](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0152-maximum-product-subarray/) | Medium |
+| [0396-rotate-function](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0396-rotate-function/) | Medium |
 | [3225-maximum-score-from-grid-operations](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/3225-maximum-score-from-grid-operations/) | Hard |
 | [3742-maximum-path-score-in-a-grid](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/3742-maximum-path-score-in-a-grid/) | Medium |
 ## Divide and Conquer
@@ -137,6 +139,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0069-sqrtx](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0069-sqrtx/) | Easy |
+| [0396-rotate-function](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0396-rotate-function/) | Medium |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/2033-minimum-operations-to-make-a-uni-value-grid/) | Medium |
 | [2965-find-missing-and-repeated-values](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/2965-find-missing-and-repeated-values/) | Easy |
 | [3464-maximize-the-distance-between-points-on-a-square](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/3464-maximize-the-distance-between-points-on-a-square/) | Hard |
