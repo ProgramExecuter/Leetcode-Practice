@@ -30,9 +30,6 @@ public:
             int r1 = mid < m ? nums1[mid] : INT_MAX;
             int r2 = cnt2 < n ? nums2[cnt2] : INT_MAX;
 
-            cout << "[low=" << low << ", high=" << high  << ", mid=" << mid << ", cnt2=" << cnt2 
-            << ", l1=" << l1 << ", l2=" << l2 << ", r1=" << r1 << ", r2=" << r2 << "]" << endl;
-
             if(l1 <= r2  &&  l2 <= r1) {
                 if((m+n) % 2 == 0)
                     return ((max(l1, l2) + min(r1, r2)) / 2.0);
