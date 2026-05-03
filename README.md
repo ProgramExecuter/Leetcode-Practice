@@ -132,6 +132,7 @@
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0796-rotate-string](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0796-rotate-string/) | Easy |
 | [2452-words-within-two-edits-of-dictionary](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/2452-words-within-two-edits-of-dictionary/) | Medium |
 | [2833-furthest-point-from-origin](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/2833-furthest-point-from-origin/) | Easy |
 ## Trie
@@ -195,4 +196,8 @@
 | ------- | ------- |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
 | [1559-detect-cycles-in-2d-grid](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/1559-detect-cycles-in-2d-grid/) | Medium |
+## String Matching
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0796-rotate-string](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0796-rotate-string/) | Easy |
 <!---LeetCode Topics End-->
