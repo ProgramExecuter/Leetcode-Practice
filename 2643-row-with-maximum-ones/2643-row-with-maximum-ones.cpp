@@ -1,25 +1,21 @@
 class Solution {
 public:
     vector<int> rowAndMaximumOnes(vector<vector<int>>& mat) {
-        int cnt = 0;
-        // {cnt, minIndex} stack
-        stack<pair<int, int>> st;
+        int cnt = 0, mxCnt = -1, resIdx = -1;
 
         for(int row = 0; row < mat.size(); ++row) {
             cnt = 0;
             for(int col = 0; col < mat[row].size(); ++col)
                 if(mat[row][col])   ++cnt;
             
-            if(!st.empty() && st.top().first > cnt)    continue;
-
-            while(!st.empty() && st.top().first < cnt)
-                st.pop();
-            
-            if(st.empty()) {
-                st.push({cnt, row});
+            if(mxCnt < cnt) {
+                resIdx = row;
+                mxCnt = cnt;
+            } else if(mxCnt == cnt) {
+                if(resIdx == -1)    resIdx = row;
             }
         }
 
-        return {st.top().second, st.top().first};
+        return {resIdx, mxCnt};
     }
 };
