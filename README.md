@@ -13,6 +13,7 @@
 | [0048-rotate-image](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0048-rotate-image/) | Medium |
 | [0054-spiral-matrix](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0054-spiral-matrix/) | Medium |
 | [0056-merge-intervals](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0056-merge-intervals/) | Medium |
+| [0074-search-a-2d-matrix](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0074-search-a-2d-matrix/) | Medium |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0081-search-in-rotated-sorted-array-ii/) | Medium |
 | [0088-merge-sorted-array](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0088-merge-sorted-array/) | Easy |
 | [0118-pascals-triangle](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0118-pascals-triangle/) | Easy |
@@ -49,6 +50,7 @@
 | ------- | ------- |
 | [0048-rotate-image](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0048-rotate-image/) | Medium |
 | [0054-spiral-matrix](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0054-spiral-matrix/) | Medium |
+| [0074-search-a-2d-matrix](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0074-search-a-2d-matrix/) | Medium |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
 | [1559-detect-cycles-in-2d-grid](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/1559-detect-cycles-in-2d-grid/) | Medium |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/2033-minimum-operations-to-make-a-uni-value-grid/) | Medium |
@@ -164,6 +166,7 @@
 | [0033-search-in-rotated-sorted-array](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0033-search-in-rotated-sorted-array/) | Medium |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0034-find-first-and-last-position-of-element-in-sorted-array/) | Medium |
 | [0069-sqrtx](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0069-sqrtx/) | Easy |
+| [0074-search-a-2d-matrix](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0074-search-a-2d-matrix/) | Medium |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0081-search-in-rotated-sorted-array-ii/) | Medium |
 | [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0154-find-minimum-in-rotated-sorted-array-ii/) | Hard |
 | [0162-find-peak-element](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0162-find-peak-element/) | Medium |
