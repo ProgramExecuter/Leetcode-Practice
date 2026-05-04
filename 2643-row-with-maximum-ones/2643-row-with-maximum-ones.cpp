@@ -11,8 +11,6 @@ public:
             if(mxCnt < cnt) {
                 resIdx = row;
                 mxCnt = cnt;
-            } else if(mxCnt == cnt) {
-                if(resIdx == -1)    resIdx = row;
             }
         }
 
