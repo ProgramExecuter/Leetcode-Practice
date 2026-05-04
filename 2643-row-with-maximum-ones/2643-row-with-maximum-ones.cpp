@@ -1,10 +1,10 @@
 class Solution {
 public:
     vector<int> rowAndMaximumOnes(vector<vector<int>>& mat) {
-        int cnt = 0, mxCnt = -1, resIdx = -1;
+        int mxCnt = -1, resIdx = -1;
 
         for(int row = 0; row < mat.size(); ++row) {
-            cnt = 0;
+            int cnt = 0;
             for(int col = 0; col < mat[row].size(); ++col)
                 if(mat[row][col])   ++cnt;
             
