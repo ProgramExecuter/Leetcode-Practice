@@ -125,6 +125,7 @@
 | ------- | ------- |
 | [0015-3sum](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0015-3sum/) | Medium |
 | [0018-4sum](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0018-4sum/) | Medium |
+| [0061-rotate-list](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0061-rotate-list/) | Medium |
 | [0088-merge-sorted-array](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0088-merge-sorted-array/) | Easy |
 ## Depth-First Search
 | Problem Name | Difficulty |
@@ -212,4 +213,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0796-rotate-string](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0796-rotate-string/) | Easy |
+## Linked List
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0061-rotate-list](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0061-rotate-list/) | Medium |
 <!---LeetCode Topics End-->
