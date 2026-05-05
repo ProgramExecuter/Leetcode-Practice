@@ -22,14 +22,10 @@ public:
             if(tmpRes == -1)       return false;
             currCol = tmpRes;
 
-            cout << "Col: " << currCol << endl;
-
             tmpRes = -1;   low = currRow;    high = nRow - 1;
             // Find the current column's element, which is >= target
             while(low <= high) {
                 mid = low + (high - low) / 2;
-
-                cout << low << "," << high << "," << mid << " ";
 
                 if(matrix[mid][currCol] == target)
                     return true;
@@ -40,12 +36,9 @@ public:
                     low = mid + 1;
                 }
             }
-            cout << endl;
 
             if(tmpRes == -1)        return false;
             currRow = tmpRes;
-
-            cout << "Row: " << currRow << endl;
         }
 
         return false;
