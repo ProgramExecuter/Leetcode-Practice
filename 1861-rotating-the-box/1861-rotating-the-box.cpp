@@ -20,16 +20,12 @@ public:
         for(int i = 0; i < m; ++i) {
             int cntStones = 0;
             for(int j = 0; j < n; ++j) {
-                cout << "Heloo" << endl;
                 if(boxGrid[i][j] == '#') {
-                    cout << "Heloo1" << endl;
                     ++cntStones;
                 } else if(boxGrid[i][j] == '*') {
-                    cout << "Heloo2" << endl;
                     // Place Stones
                     for(int k = j-1; cntStones > 0; --k, --cntStones)
                         res[i][k] = '#';
-                    cout << cntStones << endl;
                     res[i][j] = '*';
                 }
             }
