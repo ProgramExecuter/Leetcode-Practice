@@ -12,19 +12,14 @@
 class Solution {
 public:
     bool isSameTree(TreeNode* p, TreeNode* q) {
-        // If both are NULL, return 'True'
-        if(!p  and  !q)         return true;
+        if((!p && q)  ||  (!q && p))
+            return false;
+        if(!p && !q)
+            return true;
         
-        // If one is NULL and other isn't, return 'False'
-        if(!p  or  !q)          return false;
-        
-        // If the nodes's value aren't same, return 'False'
-        if(p->val !=  q->val)   return false;
-        
-        bool left  = isSameTree(p->left,  q->left);
-        bool right = isSameTree(p->right, q->right);
-        
-        // Check if both left and right subtree are also same
-        return (left and right);
+        bool checkLeft  = isSameTree(p->left,  q->left);
+        bool checkRight = isSameTree(p->right, q->right);
+
+        return checkLeft & checkRight && p->val == q->val;
     }
 };
