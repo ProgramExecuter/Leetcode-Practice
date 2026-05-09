@@ -38,6 +38,7 @@
 | [1722-minimize-hamming-distance-after-swap-operations](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/1722-minimize-hamming-distance-after-swap-operations/) | Medium |
 | [1861-rotating-the-box](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/1861-rotating-the-box/) | Medium |
 | [1901-find-a-peak-element-ii](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/1901-find-a-peak-element-ii/) | Medium |
+| [1914-cyclically-rotating-a-grid](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/1914-cyclically-rotating-a-grid/) | Medium |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/2033-minimum-operations-to-make-a-uni-value-grid/) | Medium |
 | [2078-two-furthest-houses-with-different-colors](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/2078-two-furthest-houses-with-different-colors/) | Easy |
 | [2452-words-within-two-edits-of-dictionary](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/2452-words-within-two-edits-of-dictionary/) | Medium |
@@ -61,6 +62,7 @@
 | [1559-detect-cycles-in-2d-grid](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/1559-detect-cycles-in-2d-grid/) | Medium |
 | [1861-rotating-the-box](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/1861-rotating-the-box/) | Medium |
 | [1901-find-a-peak-element-ii](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/1901-find-a-peak-element-ii/) | Medium |
+| [1914-cyclically-rotating-a-grid](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/1914-cyclically-rotating-a-grid/) | Medium |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/2033-minimum-operations-to-make-a-uni-value-grid/) | Medium |
 | [2643-row-with-maximum-ones](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/2643-row-with-maximum-ones/) | Easy |
 | [2965-find-missing-and-repeated-values](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/2965-find-missing-and-repeated-values/) | Easy |
@@ -70,6 +72,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0054-spiral-matrix](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0054-spiral-matrix/) | Medium |
+| [1914-cyclically-rotating-a-grid](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/1914-cyclically-rotating-a-grid/) | Medium |
 ## Greedy
 | Problem Name | Difficulty |
 | ------- | ------- |
