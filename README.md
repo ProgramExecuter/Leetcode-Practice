@@ -154,6 +154,7 @@
 | [0144-binary-tree-preorder-traversal](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0144-binary-tree-preorder-traversal/) | Easy |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0236-lowest-common-ancestor-of-a-binary-tree/) | Medium |
 | [0543-diameter-of-binary-tree](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0543-diameter-of-binary-tree/) | Easy |
+| [0662-maximum-width-of-binary-tree](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0662-maximum-width-of-binary-tree/) | Medium |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
 | [1559-detect-cycles-in-2d-grid](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/1559-detect-cycles-in-2d-grid/) | Medium |
 | [1722-minimize-hamming-distance-after-swap-operations](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/1722-minimize-hamming-distance-after-swap-operations/) | Medium |
@@ -238,6 +239,7 @@
 | [0102-binary-tree-level-order-traversal](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0102-binary-tree-level-order-traversal/) | Medium |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0103-binary-tree-zigzag-level-order-traversal/) | Medium |
 | [0104-maximum-depth-of-binary-tree](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0104-maximum-depth-of-binary-tree/) | Easy |
+| [0662-maximum-width-of-binary-tree](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0662-maximum-width-of-binary-tree/) | Medium |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
 | [1559-detect-cycles-in-2d-grid](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/1559-detect-cycles-in-2d-grid/) | Medium |
 | [3629-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/3629-minimum-jumps-to-reach-end-via-prime-teleportation/) | Medium |
@@ -268,6 +270,7 @@
 | [0144-binary-tree-preorder-traversal](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0144-binary-tree-preorder-traversal/) | Easy |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0236-lowest-common-ancestor-of-a-binary-tree/) | Medium |
 | [0543-diameter-of-binary-tree](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0543-diameter-of-binary-tree/) | Easy |
+| [0662-maximum-width-of-binary-tree](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0662-maximum-width-of-binary-tree/) | Medium |
 ## Binary Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -282,6 +285,7 @@
 | [0144-binary-tree-preorder-traversal](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0144-binary-tree-preorder-traversal/) | Easy |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0236-lowest-common-ancestor-of-a-binary-tree/) | Medium |
 | [0543-diameter-of-binary-tree](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0543-diameter-of-binary-tree/) | Easy |
+| [0662-maximum-width-of-binary-tree](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0662-maximum-width-of-binary-tree/) | Medium |
 ## Number Theory
 | Problem Name | Difficulty |
 | ------- | ------- |
