@@ -17,6 +17,7 @@
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0081-search-in-rotated-sorted-array-ii/) | Medium |
 | [0088-merge-sorted-array](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0088-merge-sorted-array/) | Easy |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0105-construct-binary-tree-from-preorder-and-inorder-traversal/) | Medium |
+| [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0106-construct-binary-tree-from-inorder-and-postorder-traversal/) | Medium |
 | [0118-pascals-triangle](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0118-pascals-triangle/) | Easy |
 | [0152-maximum-product-subarray](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0152-maximum-product-subarray/) | Medium |
 | [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0154-find-minimum-in-rotated-sorted-array-ii/) | Hard |
@@ -86,6 +87,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0105-construct-binary-tree-from-preorder-and-inorder-traversal/) | Medium |
+| [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0106-construct-binary-tree-from-inorder-and-postorder-traversal/) | Medium |
 | [0169-majority-element](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0169-majority-element/) | Easy |
 | [0229-majority-element-ii](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0229-majority-element-ii/) | Medium |
 | [0560-subarray-sum-equals-k](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0560-subarray-sum-equals-k/) | Medium |
@@ -121,6 +123,7 @@
 | ------- | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0004-median-of-two-sorted-arrays/) | Hard |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0105-construct-binary-tree-from-preorder-and-inorder-traversal/) | Medium |
+| [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0106-construct-binary-tree-from-inorder-and-postorder-traversal/) | Medium |
 | [0169-majority-element](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0169-majority-element/) | Easy |
 | [0240-search-a-2d-matrix-ii](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0240-search-a-2d-matrix-ii/) | Medium |
 | [0493-reverse-pairs](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0493-reverse-pairs/) | Hard |
@@ -279,6 +282,7 @@
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0103-binary-tree-zigzag-level-order-traversal/) | Medium |
 | [0104-maximum-depth-of-binary-tree](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0104-maximum-depth-of-binary-tree/) | Easy |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0105-construct-binary-tree-from-preorder-and-inorder-traversal/) | Medium |
+| [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0106-construct-binary-tree-from-inorder-and-postorder-traversal/) | Medium |
 | [0110-balanced-binary-tree](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0110-balanced-binary-tree/) | Easy |
 | [0124-binary-tree-maximum-path-sum](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0124-binary-tree-maximum-path-sum/) | Hard |
 | [0144-binary-tree-preorder-traversal](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0144-binary-tree-preorder-traversal/) | Easy |
@@ -298,6 +302,7 @@
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0103-binary-tree-zigzag-level-order-traversal/) | Medium |
 | [0104-maximum-depth-of-binary-tree](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0104-maximum-depth-of-binary-tree/) | Easy |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0105-construct-binary-tree-from-preorder-and-inorder-traversal/) | Medium |
+| [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0106-construct-binary-tree-from-inorder-and-postorder-traversal/) | Medium |
 | [0110-balanced-binary-tree](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0110-balanced-binary-tree/) | Easy |
 | [0124-binary-tree-maximum-path-sum](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0124-binary-tree-maximum-path-sum/) | Hard |
 | [0144-binary-tree-preorder-traversal](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0144-binary-tree-preorder-traversal/) | Easy |
