@@ -42,6 +42,7 @@
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/2033-minimum-operations-to-make-a-uni-value-grid/) | Medium |
 | [2078-two-furthest-houses-with-different-colors](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/2078-two-furthest-houses-with-different-colors/) | Easy |
 | [2452-words-within-two-edits-of-dictionary](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/2452-words-within-two-edits-of-dictionary/) | Medium |
+| [2553-separate-the-digits-in-an-array](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/2553-separate-the-digits-in-an-array/) | Easy |
 | [2588-count-the-number-of-beautiful-subarrays](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/2588-count-the-number-of-beautiful-subarrays/) | Medium |
 | [2615-sum-of-distances](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/2615-sum-of-distances/) | Medium |
 | [2643-row-with-maximum-ones](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/2643-row-with-maximum-ones/) | Easy |
@@ -74,6 +75,7 @@
 | ------- | ------- |
 | [0054-spiral-matrix](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0054-spiral-matrix/) | Medium |
 | [1914-cyclically-rotating-a-grid](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/1914-cyclically-rotating-a-grid/) | Medium |
+| [2553-separate-the-digits-in-an-array](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/2553-separate-the-digits-in-an-array/) | Easy |
 ## Greedy
 | Problem Name | Difficulty |
 | ------- | ------- |
