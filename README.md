@@ -20,6 +20,7 @@
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0106-construct-binary-tree-from-inorder-and-postorder-traversal/) | Medium |
 | [0118-pascals-triangle](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0118-pascals-triangle/) | Easy |
 | [0152-maximum-product-subarray](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0152-maximum-product-subarray/) | Medium |
+| [0153-find-minimum-in-rotated-sorted-array](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0153-find-minimum-in-rotated-sorted-array/) | Medium |
 | [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0154-find-minimum-in-rotated-sorted-array-ii/) | Hard |
 | [0162-find-peak-element](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0162-find-peak-element/) | Medium |
 | [0169-majority-element](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0169-majority-element/) | Easy |
@@ -213,6 +214,7 @@
 | [0069-sqrtx](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0069-sqrtx/) | Easy |
 | [0074-search-a-2d-matrix](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0074-search-a-2d-matrix/) | Medium |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0081-search-in-rotated-sorted-array-ii/) | Medium |
+| [0153-find-minimum-in-rotated-sorted-array](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0153-find-minimum-in-rotated-sorted-array/) | Medium |
 | [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0154-find-minimum-in-rotated-sorted-array-ii/) | Hard |
 | [0162-find-peak-element](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0162-find-peak-element/) | Medium |
 | [0222-count-complete-tree-nodes](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0222-count-complete-tree-nodes/) | Easy |
