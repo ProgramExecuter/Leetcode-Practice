@@ -301,6 +301,7 @@
 | [0543-diameter-of-binary-tree](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0543-diameter-of-binary-tree/) | Easy |
 | [0662-maximum-width-of-binary-tree](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0662-maximum-width-of-binary-tree/) | Medium |
 | [0700-search-in-a-binary-search-tree](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0700-search-in-a-binary-search-tree/) | Easy |
+| [0701-insert-into-a-binary-search-tree](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0701-insert-into-a-binary-search-tree/) | Medium |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0863-all-nodes-distance-k-in-binary-tree/) | Medium |
 | [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/2385-amount-of-time-for-binary-tree-to-be-infected/) | Medium |
 ## Binary Tree
@@ -324,6 +325,7 @@
 | [0543-diameter-of-binary-tree](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0543-diameter-of-binary-tree/) | Easy |
 | [0662-maximum-width-of-binary-tree](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0662-maximum-width-of-binary-tree/) | Medium |
 | [0700-search-in-a-binary-search-tree](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0700-search-in-a-binary-search-tree/) | Easy |
+| [0701-insert-into-a-binary-search-tree](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0701-insert-into-a-binary-search-tree/) | Medium |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0863-all-nodes-distance-k-in-binary-tree/) | Medium |
 | [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/2385-amount-of-time-for-binary-tree-to-be-infected/) | Medium |
 ## Number Theory
@@ -338,4 +340,5 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0700-search-in-a-binary-search-tree](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0700-search-in-a-binary-search-tree/) | Easy |
+| [0701-insert-into-a-binary-search-tree](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0701-insert-into-a-binary-search-tree/) | Medium |
 <!---LeetCode Topics End-->
