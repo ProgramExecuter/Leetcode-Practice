@@ -10,27 +10,22 @@
 
 class Solution {
 public:
-    TreeNode* lca(TreeNode* root, TreeNode* p, TreeNode* q, int low, int high) {
-        if(!root)   return root;
-
-        if(root == p || root == q) {
+    TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
+        if(!root || root == p || root == q) {
             return root;
         } else {
             // Both on left
             if(p->val < root->val && q->val < root->val) {
-                return lca(root->left, p, q, low, root->val);
+                return lowestCommonAncestor(root->left, p, q);
             }
             // Both on right
             else if(p->val > root->val && q->val > root->val) {
-                return lca(root->right, p, q, root->val, high);
+                return lowestCommonAncestor(root->right, p, q);
             }
             // One on left and one on right
             else {
                 return root;
             }
         }
-    }
-    TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
-        return lca(root, p, q, INT_MIN, INT_MAX);
     }
 };
