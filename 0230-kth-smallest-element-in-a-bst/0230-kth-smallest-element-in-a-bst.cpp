@@ -11,44 +11,16 @@
  */
 class Solution {
 public:
-    struct ChildCnt {
-        int leftCnt;
-        int rightCnt;
+    void dfs(TreeNode* root, vector<int>& sortedArr) {
+        if(!root)   return;
 
-        ChildCnt(int left = 0, int right = 0)
-            : leftCnt(left), rightCnt(right) {}
-    };
-
-    int findChildCnt(TreeNode* root, map<TreeNode*, ChildCnt>& mp) {
-        if(!root)       return 0;
-
-        int left  = findChildCnt(root->left,  mp);
-        int right = findChildCnt(root->right, mp);
-
-        mp[root] = ChildCnt(left, right);
-
-        return 1 + left + right;
+        dfs(root->left, sortedArr);
+        sortedArr.push_back(root->val);
+        dfs(root->right, sortedArr);
     }
     int kthSmallest(TreeNode* root, int k) {
-        // Find left and right node cnt for each node
-        map<TreeNode*, ChildCnt> mpChildCnt;
-        findChildCnt(root, mpChildCnt);
-
-        int numsSmallerThanCurr = 0;
-        TreeNode* curr = root;
-        while(curr) {
-            int tmpSmallCnt = numsSmallerThanCurr + mpChildCnt[curr].leftCnt;
-            // Found the element
-            if(tmpSmallCnt == k-1) {
-                return curr->val;
-            } else if(tmpSmallCnt >= k) {
-                curr = curr->left;
-            } else {
-                numsSmallerThanCurr = tmpSmallCnt + 1;
-                curr = curr->right;
-            }
-        }
-
-        return -1;
+        vector<int> sortedArr;
+        dfs(root, sortedArr);
+        return sortedArr[k-1];
     }
 };
