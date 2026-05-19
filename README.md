@@ -94,6 +94,7 @@
 | [0169-majority-element](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0169-majority-element/) | Easy |
 | [0229-majority-element-ii](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0229-majority-element-ii/) | Medium |
 | [0560-subarray-sum-equals-k](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0560-subarray-sum-equals-k/) | Medium |
+| [0653-two-sum-iv-input-is-a-bst](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0653-two-sum-iv-input-is-a-bst/) | Easy |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0863-all-nodes-distance-k-in-binary-tree/) | Medium |
 | [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/2385-amount-of-time-for-binary-tree-to-be-infected/) | Medium |
 | [2540-minimum-common-value](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/2540-minimum-common-value/) | Easy |
@@ -155,6 +156,7 @@
 | [0018-4sum](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0018-4sum/) | Medium |
 | [0061-rotate-list](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0061-rotate-list/) | Medium |
 | [0088-merge-sorted-array](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0088-merge-sorted-array/) | Easy |
+| [0653-two-sum-iv-input-is-a-bst](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0653-two-sum-iv-input-is-a-bst/) | Easy |
 | [1861-rotating-the-box](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/1861-rotating-the-box/) | Medium |
 | [2540-minimum-common-value](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/2540-minimum-common-value/) | Easy |
 ## Depth-First Search
@@ -174,6 +176,7 @@
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0236-lowest-common-ancestor-of-a-binary-tree/) | Medium |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0297-serialize-and-deserialize-binary-tree/) | Hard |
 | [0543-diameter-of-binary-tree](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0543-diameter-of-binary-tree/) | Easy |
+| [0653-two-sum-iv-input-is-a-bst](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0653-two-sum-iv-input-is-a-bst/) | Easy |
 | [0662-maximum-width-of-binary-tree](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0662-maximum-width-of-binary-tree/) | Medium |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0863-all-nodes-distance-k-in-binary-tree/) | Medium |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
@@ -267,6 +270,7 @@
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0103-binary-tree-zigzag-level-order-traversal/) | Medium |
 | [0104-maximum-depth-of-binary-tree](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0104-maximum-depth-of-binary-tree/) | Easy |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0297-serialize-and-deserialize-binary-tree/) | Hard |
+| [0653-two-sum-iv-input-is-a-bst](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0653-two-sum-iv-input-is-a-bst/) | Easy |
 | [0662-maximum-width-of-binary-tree](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0662-maximum-width-of-binary-tree/) | Medium |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0863-all-nodes-distance-k-in-binary-tree/) | Medium |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
@@ -314,6 +318,7 @@
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0297-serialize-and-deserialize-binary-tree/) | Hard |
 | [0450-delete-node-in-a-bst](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0450-delete-node-in-a-bst/) | Medium |
 | [0543-diameter-of-binary-tree](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0543-diameter-of-binary-tree/) | Easy |
+| [0653-two-sum-iv-input-is-a-bst](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0653-two-sum-iv-input-is-a-bst/) | Easy |
 | [0662-maximum-width-of-binary-tree](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0662-maximum-width-of-binary-tree/) | Medium |
 | [0700-search-in-a-binary-search-tree](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0700-search-in-a-binary-search-tree/) | Easy |
 | [0701-insert-into-a-binary-search-tree](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0701-insert-into-a-binary-search-tree/) | Medium |
@@ -344,6 +349,7 @@
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0297-serialize-and-deserialize-binary-tree/) | Hard |
 | [0450-delete-node-in-a-bst](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0450-delete-node-in-a-bst/) | Medium |
 | [0543-diameter-of-binary-tree](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0543-diameter-of-binary-tree/) | Easy |
+| [0653-two-sum-iv-input-is-a-bst](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0653-two-sum-iv-input-is-a-bst/) | Easy |
 | [0662-maximum-width-of-binary-tree](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0662-maximum-width-of-binary-tree/) | Medium |
 | [0700-search-in-a-binary-search-tree](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0700-search-in-a-binary-search-tree/) | Easy |
 | [0701-insert-into-a-binary-search-tree](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0701-insert-into-a-binary-search-tree/) | Medium |
@@ -367,6 +373,7 @@
 | [0230-kth-smallest-element-in-a-bst](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0230-kth-smallest-element-in-a-bst/) | Medium |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0235-lowest-common-ancestor-of-a-binary-search-tree/) | Medium |
 | [0450-delete-node-in-a-bst](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0450-delete-node-in-a-bst/) | Medium |
+| [0653-two-sum-iv-input-is-a-bst](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0653-two-sum-iv-input-is-a-bst/) | Easy |
 | [0700-search-in-a-binary-search-tree](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0700-search-in-a-binary-search-tree/) | Easy |
 | [0701-insert-into-a-binary-search-tree](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0701-insert-into-a-binary-search-tree/) | Medium |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/1008-construct-binary-search-tree-from-preorder-traversal/) | Medium |
