@@ -288,6 +288,7 @@
 | [0094-binary-tree-inorder-traversal](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0094-binary-tree-inorder-traversal/) | Easy |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0114-flatten-binary-tree-to-linked-list/) | Medium |
 | [0144-binary-tree-preorder-traversal](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0144-binary-tree-preorder-traversal/) | Easy |
+| [0173-binary-search-tree-iterator](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0173-binary-search-tree-iterator/) | Medium |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/1008-construct-binary-search-tree-from-preorder-traversal/) | Medium |
 ## Tree
 | Problem Name | Difficulty |
@@ -305,6 +306,7 @@
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0114-flatten-binary-tree-to-linked-list/) | Medium |
 | [0124-binary-tree-maximum-path-sum](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0124-binary-tree-maximum-path-sum/) | Hard |
 | [0144-binary-tree-preorder-traversal](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0144-binary-tree-preorder-traversal/) | Easy |
+| [0173-binary-search-tree-iterator](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0173-binary-search-tree-iterator/) | Medium |
 | [0222-count-complete-tree-nodes](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0222-count-complete-tree-nodes/) | Easy |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0230-kth-smallest-element-in-a-bst/) | Medium |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0235-lowest-common-ancestor-of-a-binary-search-tree/) | Medium |
@@ -334,6 +336,7 @@
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0114-flatten-binary-tree-to-linked-list/) | Medium |
 | [0124-binary-tree-maximum-path-sum](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0124-binary-tree-maximum-path-sum/) | Hard |
 | [0144-binary-tree-preorder-traversal](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0144-binary-tree-preorder-traversal/) | Easy |
+| [0173-binary-search-tree-iterator](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0173-binary-search-tree-iterator/) | Medium |
 | [0222-count-complete-tree-nodes](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0222-count-complete-tree-nodes/) | Easy |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0230-kth-smallest-element-in-a-bst/) | Medium |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0235-lowest-common-ancestor-of-a-binary-search-tree/) | Medium |
@@ -354,11 +357,13 @@
 ## Design
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0173-binary-search-tree-iterator](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0173-binary-search-tree-iterator/) | Medium |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0297-serialize-and-deserialize-binary-tree/) | Hard |
 ## Binary Search Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0098-validate-binary-search-tree](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0098-validate-binary-search-tree/) | Medium |
+| [0173-binary-search-tree-iterator](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0173-binary-search-tree-iterator/) | Medium |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0230-kth-smallest-element-in-a-bst/) | Medium |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0235-lowest-common-ancestor-of-a-binary-search-tree/) | Medium |
 | [0450-delete-node-in-a-bst](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0450-delete-node-in-a-bst/) | Medium |
@@ -369,4 +374,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/1008-construct-binary-search-tree-from-preorder-traversal/) | Medium |
+## Iterator
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0173-binary-search-tree-iterator](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0173-binary-search-tree-iterator/) | Medium |
 <!---LeetCode Topics End-->
