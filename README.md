@@ -46,6 +46,7 @@
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/2033-minimum-operations-to-make-a-uni-value-grid/) | Medium |
 | [2078-two-furthest-houses-with-different-colors](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/2078-two-furthest-houses-with-different-colors/) | Easy |
 | [2452-words-within-two-edits-of-dictionary](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/2452-words-within-two-edits-of-dictionary/) | Medium |
+| [2540-minimum-common-value](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/2540-minimum-common-value/) | Easy |
 | [2553-separate-the-digits-in-an-array](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/2553-separate-the-digits-in-an-array/) | Easy |
 | [2588-count-the-number-of-beautiful-subarrays](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/2588-count-the-number-of-beautiful-subarrays/) | Medium |
 | [2615-sum-of-distances](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/2615-sum-of-distances/) | Medium |
@@ -95,6 +96,7 @@
 | [0560-subarray-sum-equals-k](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0560-subarray-sum-equals-k/) | Medium |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0863-all-nodes-distance-k-in-binary-tree/) | Medium |
 | [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/2385-amount-of-time-for-binary-tree-to-be-infected/) | Medium |
+| [2540-minimum-common-value](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/2540-minimum-common-value/) | Easy |
 | [2588-count-the-number-of-beautiful-subarrays](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/2588-count-the-number-of-beautiful-subarrays/) | Medium |
 | [2615-sum-of-distances](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/2615-sum-of-distances/) | Medium |
 | [2965-find-missing-and-repeated-values](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/2965-find-missing-and-repeated-values/) | Easy |
@@ -154,6 +156,7 @@
 | [0061-rotate-list](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0061-rotate-list/) | Medium |
 | [0088-merge-sorted-array](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0088-merge-sorted-array/) | Easy |
 | [1861-rotating-the-box](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/1861-rotating-the-box/) | Medium |
+| [2540-minimum-common-value](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/2540-minimum-common-value/) | Easy |
 ## Depth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -233,6 +236,7 @@
 | [1482-minimum-number-of-days-to-make-m-bouquets](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/1482-minimum-number-of-days-to-make-m-bouquets/) | Medium |
 | [1539-kth-missing-positive-number](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/1539-kth-missing-positive-number/) | Easy |
 | [1901-find-a-peak-element-ii](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/1901-find-a-peak-element-ii/) | Medium |
+| [2540-minimum-common-value](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/2540-minimum-common-value/) | Easy |
 | [3464-maximize-the-distance-between-points-on-a-square](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/3464-maximize-the-distance-between-points-on-a-square/) | Hard |
 ## Binary Indexed Tree
 | Problem Name | Difficulty |
