@@ -40,6 +40,7 @@
 | [1539-kth-missing-positive-number](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/1539-kth-missing-positive-number/) | Easy |
 | [1559-detect-cycles-in-2d-grid](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/1559-detect-cycles-in-2d-grid/) | Medium |
 | [1722-minimize-hamming-distance-after-swap-operations](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/1722-minimize-hamming-distance-after-swap-operations/) | Medium |
+| [1752-check-if-array-is-sorted-and-rotated](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/1752-check-if-array-is-sorted-and-rotated/) | Easy |
 | [1861-rotating-the-box](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/1861-rotating-the-box/) | Medium |
 | [1901-find-a-peak-element-ii](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/1901-find-a-peak-element-ii/) | Medium |
 | [1914-cyclically-rotating-a-grid](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/1914-cyclically-rotating-a-grid/) | Medium |
