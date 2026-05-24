@@ -35,6 +35,7 @@
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/1008-construct-binary-search-tree-from-preorder-traversal/) | Medium |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/1011-capacity-to-ship-packages-within-d-days/) | Medium |
 | [1283-find-the-smallest-divisor-given-a-threshold](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/1283-find-the-smallest-divisor-given-a-threshold/) | Medium |
+| [1340-jump-game-v](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/1340-jump-game-v/) | Hard |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
 | [1482-minimum-number-of-days-to-make-m-bouquets](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/1482-minimum-number-of-days-to-make-m-bouquets/) | Medium |
 | [1539-kth-missing-positive-number](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/1539-kth-missing-positive-number/) | Easy |
@@ -120,6 +121,7 @@
 | [0396-rotate-function](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0396-rotate-function/) | Medium |
 | [0410-split-array-largest-sum](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0410-split-array-largest-sum/) | Hard |
 | [0788-rotated-digits](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0788-rotated-digits/) | Medium |
+| [1340-jump-game-v](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/1340-jump-game-v/) | Hard |
 | [2770-maximum-number-of-jumps-to-reach-the-last-index](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/2770-maximum-number-of-jumps-to-reach-the-last-index/) | Medium |
 | [3225-maximum-score-from-grid-operations](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/3225-maximum-score-from-grid-operations/) | Hard |
 | [3660-jump-game-ix](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/3660-jump-game-ix/) | Medium |
@@ -142,6 +144,7 @@
 | [0088-merge-sorted-array](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0088-merge-sorted-array/) | Easy |
 | [0169-majority-element](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0169-majority-element/) | Easy |
 | [0229-majority-element-ii](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0229-majority-element-ii/) | Medium |
+| [1340-jump-game-v](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/1340-jump-game-v/) | Hard |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/2033-minimum-operations-to-make-a-uni-value-grid/) | Medium |
 | [3464-maximize-the-distance-between-points-on-a-square](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/3464-maximize-the-distance-between-points-on-a-square/) | Hard |
 ## Counting
