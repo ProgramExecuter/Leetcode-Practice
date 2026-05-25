@@ -24,6 +24,7 @@
 | [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0154-find-minimum-in-rotated-sorted-array-ii/) | Hard |
 | [0162-find-peak-element](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0162-find-peak-element/) | Medium |
 | [0169-majority-element](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0169-majority-element/) | Easy |
+| [0200-number-of-islands](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0200-number-of-islands/) | Medium |
 | [0229-majority-element-ii](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0229-majority-element-ii/) | Medium |
 | [0240-search-a-2d-matrix-ii](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0240-search-a-2d-matrix-ii/) | Medium |
 | [0396-rotate-function](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0396-rotate-function/) | Medium |
@@ -66,6 +67,7 @@
 | [0048-rotate-image](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0048-rotate-image/) | Medium |
 | [0054-spiral-matrix](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0054-spiral-matrix/) | Medium |
 | [0074-search-a-2d-matrix](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0074-search-a-2d-matrix/) | Medium |
+| [0200-number-of-islands](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0200-number-of-islands/) | Medium |
 | [0240-search-a-2d-matrix-ii](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0240-search-a-2d-matrix-ii/) | Medium |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
 | [1559-detect-cycles-in-2d-grid](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/1559-detect-cycles-in-2d-grid/) | Medium |
@@ -176,6 +178,7 @@
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0114-flatten-binary-tree-to-linked-list/) | Medium |
 | [0124-binary-tree-maximum-path-sum](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0124-binary-tree-maximum-path-sum/) | Hard |
 | [0144-binary-tree-preorder-traversal](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0144-binary-tree-preorder-traversal/) | Easy |
+| [0200-number-of-islands](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0200-number-of-islands/) | Medium |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0230-kth-smallest-element-in-a-bst/) | Medium |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0235-lowest-common-ancestor-of-a-binary-search-tree/) | Medium |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0236-lowest-common-ancestor-of-a-binary-tree/) | Medium |
@@ -192,6 +195,7 @@
 ## Union-Find
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0200-number-of-islands](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0200-number-of-islands/) | Medium |
 | [0547-number-of-provinces](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0547-number-of-provinces/) | Medium |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
 | [1559-detect-cycles-in-2d-grid](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/1559-detect-cycles-in-2d-grid/) | Medium |
@@ -276,6 +280,7 @@
 | [0102-binary-tree-level-order-traversal](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0102-binary-tree-level-order-traversal/) | Medium |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0103-binary-tree-zigzag-level-order-traversal/) | Medium |
 | [0104-maximum-depth-of-binary-tree](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0104-maximum-depth-of-binary-tree/) | Easy |
+| [0200-number-of-islands](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0200-number-of-islands/) | Medium |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0297-serialize-and-deserialize-binary-tree/) | Hard |
 | [0547-number-of-provinces](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0547-number-of-provinces/) | Medium |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0653-two-sum-iv-input-is-a-bst/) | Easy |
