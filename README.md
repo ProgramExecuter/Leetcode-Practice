@@ -105,6 +105,7 @@
 | [2588-count-the-number-of-beautiful-subarrays](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/2588-count-the-number-of-beautiful-subarrays/) | Medium |
 | [2615-sum-of-distances](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/2615-sum-of-distances/) | Medium |
 | [2965-find-missing-and-repeated-values](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/2965-find-missing-and-repeated-values/) | Easy |
+| [3120-count-the-number-of-special-characters-i](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/3120-count-the-number-of-special-characters-i/) | Easy |
 | [3629-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/3629-minimum-jumps-to-reach-end-via-prime-teleportation/) | Medium |
 ## Prefix Sum
 | Problem Name | Difficulty |
@@ -207,6 +208,7 @@
 | [0796-rotate-string](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0796-rotate-string/) | Easy |
 | [2452-words-within-two-edits-of-dictionary](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/2452-words-within-two-edits-of-dictionary/) | Medium |
 | [2833-furthest-point-from-origin](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/2833-furthest-point-from-origin/) | Easy |
+| [3120-count-the-number-of-special-characters-i](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/3120-count-the-number-of-special-characters-i/) | Easy |
 ## Trie
 | Problem Name | Difficulty |
 | ------- | ------- |
