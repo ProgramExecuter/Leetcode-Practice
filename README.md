@@ -31,6 +31,7 @@
 | [0410-split-array-largest-sum](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0410-split-array-largest-sum/) | Hard |
 | [0493-reverse-pairs](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0493-reverse-pairs/) | Hard |
 | [0540-single-element-in-a-sorted-array](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0540-single-element-in-a-sorted-array/) | Medium |
+| [0542-01-matrix](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0542-01-matrix/) | Medium |
 | [0560-subarray-sum-equals-k](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0560-subarray-sum-equals-k/) | Medium |
 | [0733-flood-fill](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0733-flood-fill/) | Easy |
 | [0875-koko-eating-bananas](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0875-koko-eating-bananas/) | Medium |
@@ -71,6 +72,7 @@
 | [0074-search-a-2d-matrix](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0074-search-a-2d-matrix/) | Medium |
 | [0200-number-of-islands](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0200-number-of-islands/) | Medium |
 | [0240-search-a-2d-matrix-ii](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0240-search-a-2d-matrix-ii/) | Medium |
+| [0542-01-matrix](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0542-01-matrix/) | Medium |
 | [0733-flood-fill](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0733-flood-fill/) | Easy |
 | [0994-rotting-oranges](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0994-rotting-oranges/) | Medium |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
@@ -127,6 +129,7 @@
 | [0152-maximum-product-subarray](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0152-maximum-product-subarray/) | Medium |
 | [0396-rotate-function](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0396-rotate-function/) | Medium |
 | [0410-split-array-largest-sum](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0410-split-array-largest-sum/) | Hard |
+| [0542-01-matrix](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0542-01-matrix/) | Medium |
 | [0788-rotated-digits](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0788-rotated-digits/) | Medium |
 | [1340-jump-game-v](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/1340-jump-game-v/) | Hard |
 | [2770-maximum-number-of-jumps-to-reach-the-last-index](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/2770-maximum-number-of-jumps-to-reach-the-last-index/) | Medium |
@@ -289,6 +292,7 @@
 | [0104-maximum-depth-of-binary-tree](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0104-maximum-depth-of-binary-tree/) | Easy |
 | [0200-number-of-islands](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0200-number-of-islands/) | Medium |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0297-serialize-and-deserialize-binary-tree/) | Hard |
+| [0542-01-matrix](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0542-01-matrix/) | Medium |
 | [0547-number-of-provinces](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0547-number-of-provinces/) | Medium |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0653-two-sum-iv-input-is-a-bst/) | Easy |
 | [0662-maximum-width-of-binary-tree](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0662-maximum-width-of-binary-tree/) | Medium |
