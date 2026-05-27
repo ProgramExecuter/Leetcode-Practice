@@ -6,14 +6,12 @@ class Solution {
     };
 
     vector<vector<int>> res;
-    // vector<vector<bool>> vis;
     int nRow, nCol;
 public:
     vector<vector<int>> updateMatrix(vector<vector<int>>& mat) {
         nRow = mat.size();
         nCol = mat[0].size();
         res.assign(nRow, vector<int>(nCol, -1));
-        // vis.assign(nRow, vector<bool>(nCol, false));
         queue<Ele> travQ;
 
         for(int i = 0; i < nRow; ++i) {
@@ -21,7 +19,6 @@ public:
                 if(mat[i][j] == 0) {
                     res[i][j] = 0;
                     travQ.push(Ele(i, j, 0));
-                    // vis[i][j] = true;
                 }
             }
         }
@@ -41,7 +38,6 @@ public:
                   &&  res[nxtRow][nxtCol] == -1  &&  mat[nxtRow][nxtCol] == 1) {
                     travQ.push(Ele(nxtRow, nxtCol, curr.dist+1));
                     res[nxtRow][nxtCol] = curr.dist + 1;
-                    // vis[nxtRow][nxtCol] = 1;
                 }
             }
         }
