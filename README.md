@@ -199,6 +199,7 @@
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0653-two-sum-iv-input-is-a-bst/) | Easy |
 | [0662-maximum-width-of-binary-tree](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0662-maximum-width-of-binary-tree/) | Medium |
 | [0733-flood-fill](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0733-flood-fill/) | Easy |
+| [0785-is-graph-bipartite](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0785-is-graph-bipartite/) | Medium |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0863-all-nodes-distance-k-in-binary-tree/) | Medium |
 | [1020-number-of-enclaves](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/1020-number-of-enclaves/) | Medium |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
@@ -210,6 +211,7 @@
 | ------- | ------- |
 | [0200-number-of-islands](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0200-number-of-islands/) | Medium |
 | [0547-number-of-provinces](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0547-number-of-provinces/) | Medium |
+| [0785-is-graph-bipartite](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0785-is-graph-bipartite/) | Medium |
 | [1020-number-of-enclaves](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/1020-number-of-enclaves/) | Medium |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
 | [1559-detect-cycles-in-2d-grid](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/1559-detect-cycles-in-2d-grid/) | Medium |
@@ -303,6 +305,7 @@
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0653-two-sum-iv-input-is-a-bst/) | Easy |
 | [0662-maximum-width-of-binary-tree](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0662-maximum-width-of-binary-tree/) | Medium |
 | [0733-flood-fill](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0733-flood-fill/) | Easy |
+| [0785-is-graph-bipartite](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0785-is-graph-bipartite/) | Medium |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0863-all-nodes-distance-k-in-binary-tree/) | Medium |
 | [0994-rotting-oranges](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0994-rotting-oranges/) | Medium |
 | [1020-number-of-enclaves](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/1020-number-of-enclaves/) | Medium |
@@ -425,4 +428,5 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0547-number-of-provinces](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0547-number-of-provinces/) | Medium |
+| [0785-is-graph-bipartite](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0785-is-graph-bipartite/) | Medium |
 <!---LeetCode Topics End-->
