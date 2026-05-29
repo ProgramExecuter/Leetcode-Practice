@@ -61,6 +61,7 @@
 | [2770-maximum-number-of-jumps-to-reach-the-last-index](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/2770-maximum-number-of-jumps-to-reach-the-last-index/) | Medium |
 | [2965-find-missing-and-repeated-values](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/2965-find-missing-and-repeated-values/) | Easy |
 | [3225-maximum-score-from-grid-operations](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/3225-maximum-score-from-grid-operations/) | Hard |
+| [3300-minimum-element-after-replacement-with-digit-sum](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/3300-minimum-element-after-replacement-with-digit-sum/) | Easy |
 | [3464-maximize-the-distance-between-points-on-a-square](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/3464-maximize-the-distance-between-points-on-a-square/) | Hard |
 | [3629-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/3629-minimum-jumps-to-reach-end-via-prime-teleportation/) | Medium |
 | [3660-jump-game-ix](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/3660-jump-game-ix/) | Medium |
@@ -243,6 +244,7 @@
 | [0788-rotated-digits](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0788-rotated-digits/) | Medium |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/2033-minimum-operations-to-make-a-uni-value-grid/) | Medium |
 | [2965-find-missing-and-repeated-values](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/2965-find-missing-and-repeated-values/) | Easy |
+| [3300-minimum-element-after-replacement-with-digit-sum](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/3300-minimum-element-after-replacement-with-digit-sum/) | Easy |
 | [3464-maximize-the-distance-between-points-on-a-square](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/3464-maximize-the-distance-between-points-on-a-square/) | Hard |
 | [3629-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/3629-minimum-jumps-to-reach-end-via-prime-teleportation/) | Medium |
 ## Binary Search
