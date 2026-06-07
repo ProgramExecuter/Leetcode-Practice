@@ -52,6 +52,7 @@
 | [1914-cyclically-rotating-a-grid](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/1914-cyclically-rotating-a-grid/) | Medium |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/2033-minimum-operations-to-make-a-uni-value-grid/) | Medium |
 | [2078-two-furthest-houses-with-different-colors](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/2078-two-furthest-houses-with-different-colors/) | Easy |
+| [2196-create-binary-tree-from-descriptions](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/2196-create-binary-tree-from-descriptions/) | Medium |
 | [2452-words-within-two-edits-of-dictionary](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/2452-words-within-two-edits-of-dictionary/) | Medium |
 | [2540-minimum-common-value](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/2540-minimum-common-value/) | Easy |
 | [2553-separate-the-digits-in-an-array](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/2553-separate-the-digits-in-an-array/) | Easy |
@@ -109,6 +110,7 @@
 | [0560-subarray-sum-equals-k](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0560-subarray-sum-equals-k/) | Medium |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0653-two-sum-iv-input-is-a-bst/) | Easy |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0863-all-nodes-distance-k-in-binary-tree/) | Medium |
+| [2196-create-binary-tree-from-descriptions](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/2196-create-binary-tree-from-descriptions/) | Medium |
 | [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/2385-amount-of-time-for-binary-tree-to-be-infected/) | Medium |
 | [2540-minimum-common-value](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/2540-minimum-common-value/) | Easy |
 | [2588-count-the-number-of-beautiful-subarrays](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/2588-count-the-number-of-beautiful-subarrays/) | Medium |
@@ -365,6 +367,7 @@
 | [0701-insert-into-a-binary-search-tree](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0701-insert-into-a-binary-search-tree/) | Medium |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0863-all-nodes-distance-k-in-binary-tree/) | Medium |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/1008-construct-binary-search-tree-from-preorder-traversal/) | Medium |
+| [2196-create-binary-tree-from-descriptions](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/2196-create-binary-tree-from-descriptions/) | Medium |
 | [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/2385-amount-of-time-for-binary-tree-to-be-infected/) | Medium |
 ## Binary Tree
 | Problem Name | Difficulty |
@@ -397,6 +400,7 @@
 | [0701-insert-into-a-binary-search-tree](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0701-insert-into-a-binary-search-tree/) | Medium |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0863-all-nodes-distance-k-in-binary-tree/) | Medium |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/1008-construct-binary-search-tree-from-preorder-traversal/) | Medium |
+| [2196-create-binary-tree-from-descriptions](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/2196-create-binary-tree-from-descriptions/) | Medium |
 | [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/2385-amount-of-time-for-binary-tree-to-be-infected/) | Medium |
 ## Number Theory
 | Problem Name | Difficulty |
