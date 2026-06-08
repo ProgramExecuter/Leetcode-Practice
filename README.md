@@ -196,6 +196,7 @@
 | [0124-binary-tree-maximum-path-sum](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0124-binary-tree-maximum-path-sum/) | Hard |
 | [0144-binary-tree-preorder-traversal](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0144-binary-tree-preorder-traversal/) | Easy |
 | [0200-number-of-islands](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0200-number-of-islands/) | Medium |
+| [0207-course-schedule](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0207-course-schedule/) | Medium |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0230-kth-smallest-element-in-a-bst/) | Medium |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0235-lowest-common-ancestor-of-a-binary-search-tree/) | Medium |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0236-lowest-common-ancestor-of-a-binary-tree/) | Medium |
@@ -307,6 +308,7 @@
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0103-binary-tree-zigzag-level-order-traversal/) | Medium |
 | [0104-maximum-depth-of-binary-tree](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0104-maximum-depth-of-binary-tree/) | Easy |
 | [0200-number-of-islands](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0200-number-of-islands/) | Medium |
+| [0207-course-schedule](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0207-course-schedule/) | Medium |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0297-serialize-and-deserialize-binary-tree/) | Hard |
 | [0542-01-matrix](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0542-01-matrix/) | Medium |
 | [0547-number-of-provinces](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0547-number-of-provinces/) | Medium |
@@ -438,11 +440,13 @@
 ## Graph Theory
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0207-course-schedule](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0207-course-schedule/) | Medium |
 | [0547-number-of-provinces](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0547-number-of-provinces/) | Medium |
 | [0785-is-graph-bipartite](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0785-is-graph-bipartite/) | Medium |
 | [0802-find-eventual-safe-states](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0802-find-eventual-safe-states/) | Medium |
 ## Topological Sort
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0207-course-schedule](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0207-course-schedule/) | Medium |
 | [0802-find-eventual-safe-states](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0802-find-eventual-safe-states/) | Medium |
 <!---LeetCode Topics End-->
