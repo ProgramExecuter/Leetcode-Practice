@@ -67,6 +67,7 @@
 | [3464-maximize-the-distance-between-points-on-a-square](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/3464-maximize-the-distance-between-points-on-a-square/) | Hard |
 | [3629-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/3629-minimum-jumps-to-reach-end-via-prime-teleportation/) | Medium |
 | [3660-jump-game-ix](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/3660-jump-game-ix/) | Medium |
+| [3689-maximum-total-subarray-value-i](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/3689-maximum-total-subarray-value-i/) | Medium |
 | [3742-maximum-path-score-in-a-grid](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/3742-maximum-path-score-in-a-grid/) | Medium |
 ## Matrix
 | Problem Name | Difficulty |
@@ -102,6 +103,7 @@
 | ------- | ------- |
 | [0410-split-array-largest-sum](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/0410-split-array-largest-sum/) | Hard |
 | [2078-two-furthest-houses-with-different-colors](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/2078-two-furthest-houses-with-different-colors/) | Easy |
+| [3689-maximum-total-subarray-value-i](https://github.com/ProgramExecuter/Leetcode-Practice/tree/main/3689-maximum-total-subarray-value-i/) | Medium |
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
