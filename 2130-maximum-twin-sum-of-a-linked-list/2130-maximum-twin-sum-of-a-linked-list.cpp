@@ -10,36 +10,43 @@
  */
 class Solution {
 public:
-    int pairSum(ListNode* head) {
-        int idx = 0, len = 0;
-        ListNode *slow = head, *fast = head;
+    ListNode* reverseList(ListNode* head) {
+        if(!head)       return nullptr;
         
-        // Find the half length of the linked list
-        while(fast and fast->next) {
-            slow = slow->next;
-            fast = fast->next->next;
-            ++len;
-        }
-        // Now slow contains head of other half
-        
-        ListNode *prev = NULL, *nxt = NULL, *curr = slow;
+        ListNode *curr = head, *prev = nullptr, *nxt = nullptr;
         while(curr) {
             nxt = curr->next;
             curr->next = prev;
             prev = curr;
             curr = nxt;
         }
-        
-        int res = 0;
-        
-        // Now 'prev' contains last node
-        ListNode *front = head, *back = prev;
-        while(len--) {
-            res = max(res, (front->val + back->val));
-            front = front->next;
-            back = back->next; 
+
+        return prev;
+    }
+    int pairSum(ListNode* head) {
+        ListNode *slow = head, *fast = head, *prev = nullptr;
+
+        while(fast) {
+            // This works since there are even number of nodes
+            fast = fast->next->next;
+
+            prev = slow;
+            slow = slow->next;
         }
-        
+
+        // First list =>   head ..... prev
+        // Second list =>   end ..... slow
+        prev->next = nullptr;
+        fast = reverseList(slow);
+        slow = head;
+
+        int res = 0;
+        while(slow  &&  fast) {
+            res = max(res, slow->val + fast->val);
+            slow = slow->next;
+            fast = fast->next;
+        }
+
         return res;
     }
 };
